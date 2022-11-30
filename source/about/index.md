@@ -1,5 +1,4 @@
 ---
-
 title: 关于
 date: 2022-11-29 16:44:59
 
@@ -18,4 +17,4 @@ date: 2022-11-29 16:44:59
 
 ###### Special thanks
 
-[宝洁云](baojie666.buzz)
+[宝洁云](https://baojie666.buzz)
