@@ -33,8 +33,6 @@ xapk,apks可以使用[SAI](https://izoyoi.icu/SAI.apk)安装，MIUI安装失败�
 
 [2021愚人节（3.5.3）](http://dlhk.izoyoi.icu/arcaea_3.5.3c.apk)
 
-
-
 ![](https://izoyoi.icu/img/phigros.png) 
 
 #### <center>Phigros</center>
@@ -53,8 +51,6 @@ xapk,apks可以使用[SAI](https://izoyoi.icu/SAI.apk)安装，MIUI安装失败�
 
 [1.4.3](http://dlhk.izoyoi.icu/Phigros_1.4.3.apk)
 
-
-
 ![](https://izoyoi.icu/img/orz.png) 
 
 #### <center>Orzmic</center>
@@ -64,8 +60,6 @@ xapk,apks可以使用[SAI](https://izoyoi.icu/SAI.apk)安装，MIUI安装失败�
 [Taptap](https://www.taptap.cn/app/194778)
 
 [1.8.22 旧界面最后一个版本](https://azjp.izoyoi.icu/orzmic_1.8.22.apk)
-
-
 
 ![](https://izoyoi.icu/img/deemo.png) 
 
@@ -77,23 +71,17 @@ xapk,apks可以使用[SAI](https://izoyoi.icu/SAI.apk)安装，MIUI安装失败�
 
 [Deemo II 2.1.2](http://dlhk.izoyoi.icu/DEEMOII_2.1.2.xapk)
 
-
-
 ![](https://izoyoi.icu/img/dy.png) 
 
 #### <center>Dynamix</center>
 
 [3.16.08](http://dlhk.izoyoi.icu/Dynamix_3.16.08.xapk)
 
-
-
 ![](https://izoyoi.icu/img/kalpa.png) 
 
 #### <center>KALPA</center>
 
 [2.0.17](http://dlhk.izoyoi.icu/KALPA_2.0.17.xapk)
-
-
 
 ![](https://izoyoi.icu/img/lanota.png) 
 
@@ -103,23 +91,17 @@ xapk,apks可以使用[SAI](https://izoyoi.icu/SAI.apk)安装，MIUI安装失败�
 
 [2.19.1](http://dlhk.izoyoi.icu/Lanota_2.19.1.apk)
 
-
-
 ![](https://izoyoi.icu/img/or.png) 
 
 #### <center>OverRapid</center>
 
 [1591v34MK32](http://dlhk.izoyoi.icu/OverRapid_1591v34MK32.apk)
 
-
-
 ![](https://izoyoi.icu/img/takumi.png) 
 
 #### <center>Takumi³</center>
 
 [4.8.25](https://dlhk.izoyoi.icu/TAKUMI_4.8.25.apk)
-
-
 
 ![](https://izoyoi.icu/img/voez.png) 
 
@@ -131,23 +113,17 @@ xapk,apks可以使用[SAI](https://izoyoi.icu/SAI.apk)安装，MIUI安装失败�
 
 [Play 2.2.1](https://dlhk.izoyoi.icu/VOEZ_2.2.1.xapk)
 
-
-
 ![](https://izoyoi.icu/img/li.png) 
 
 #### <center>Liminality阈限</center>
 
 [1.8.0](https://dlhk.izoyoi.icu/Liminality_1.8.0.apk)
 
-
-
 ![](https://izoyoi.icu/img/dr.png) 
 
 #### <center>Dancerail3</center>
 
 [1.55](http://dljp.izoyoi.icu/dr3_1.55.xapk)
-
-
 
 ### 社区驱动
 
@@ -157,7 +133,9 @@ xapk,apks可以使用[SAI](https://izoyoi.icu/SAI.apk)安装，MIUI安装失败�
 
 Taptap版本和Play版本可以不修改直接共存，但不建议
 
-Cytoid2.1.1在安卓11以上的谱面目录为/sdcard/Android/data/me.tigerhix.cytoid/files/Cytoid
+Cytoid2.1.1在安卓11以上的谱面目录为        
+
+    /sdcard/Android/data/me.tigerhix.cytoid/files/Cytoid
 
 [Play 2.1.1](http://dlhk.izoyoi.icu/Cytoid_2.1.1.apk)
 
@@ -165,15 +143,11 @@ Cytoid2.1.1在安卓11以上的谱面目录为/sdcard/Android/data/me.tigerhix.c
 
 [Taptap 1.5.5](http://dlhk.izoyoi.icu/Cytoid_1.5.5.apk)
 
-
-
 ![](https://izoyoi.icu/img/ma.ico) 
 
 #### <center>Malody</center>
 
 [4.3.7](http://dlhk.izoyoi.icu/Malody_4.3.7.apk)
-
-
 
 ![](https://izoyoi.icu/img/sonolus.png) 
 
@@ -182,8 +156,6 @@ Cytoid2.1.1在安卓11以上的谱面目录为/sdcard/Android/data/me.tigerhix.c
 [官网](https://sonolus.com/)
 
 [0.6.3 (1) Beta](httpss://dlhk.izoyoi.icu/Sonolus_0.6.3_1.apk)
-
-
 
 ### 卡牌/养成
 
@@ -197,8 +169,6 @@ Cytoid2.1.1在安卓11以上的谱面目录为/sdcard/Android/data/me.tigerhix.c
 
 [6.5.0.164](https://dljp.izoyoi.icu/bang-650-164.apk)
 
-
-
 ![](https://izoyoi.icu/img/d4dj.png) 
 
 #### <center>D4DJ Groove MIX</center>
@@ -207,8 +177,6 @@ Cytoid2.1.1在安卓11以上的谱面目录为/sdcard/Android/data/me.tigerhix.c
 
 [4.5.6](https://dljp.izoyoi.icu/d4dj_jp_4.5.6.apk)
 
-
-
 ![](https://izoyoi.icu/img/pjsk.png) 
 
 #### <center>世界计画 缤纷舞台！ feat.初音未来</center>
@@ -216,8 +184,6 @@ Cytoid2.1.1在安卓11以上的谱面目录为/sdcard/Android/data/me.tigerhix.c
 目前仅提供日服
 
 [2.3.5](https://dljp.izoyoi.icu/pjsk_jp_2.3.5.apk)
-
-
 
 ![](https://izoyoi.icu/img/lovelive.png) 
 
@@ -229,8 +195,6 @@ Cytoid2.1.1在安卓11以上的谱面目录为/sdcard/Android/data/me.tigerhix.c
 
 [9.9.1](http://dljp.izoyoi.icu/lovelive_jp_9.9.1.apk)
 
-
-
 ### 桌面端
 
 ![](https://izoyoi.icu/img/osu.ico) 
@@ -241,15 +205,11 @@ OSU!有两个版本，一个是仅适用于Windows的经典版本，另一个是
 
 [osu!installer](http://dljp.izoyoi.icu/osu!install.exe)
 
-
-
 ![](https://izoyoi.icu/img/ma.ico) 
 
 #### <center>Malody</center>
 
 [4.3.7](http://dljp.izoyoi.icu/Malody_Windows_4.3.7.7z)
-
-
 
 ### 不喘气的（雾）
 
