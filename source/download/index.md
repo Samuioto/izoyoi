@@ -55,11 +55,11 @@ xapk,apks可以使用[SAI](https://izoyoi.art/SAI.apk)安装，MIUI安装失败�
 
 #### <center>Orzmic</center>
 
-[2.11.12](https://azjp.izoyoi.art/orzmic_2.11.12.apk)
+[2.11.12](https://dljp.izoyoi.art/orzmic_2.11.12.apk)
 
 [Taptap](https://www.taptap.cn/app/194778)
 
-[1.8.22 旧界面最后一个版本](https://azjp.izoyoi.art/orzmic_1.8.22.apk)
+[1.8.22 旧界面最后一个版本](https://dljp.izoyoi.art/orzmic_1.8.22.apk)
 
 ![](https://izoyoi.art/img/deemo.png) 
 
@@ -211,3 +211,6 @@ OSU!有两个版本，一个是仅适用于Windows的经典版本，另一个是
 
 [4.3.7](http://dljp.izoyoi.art/Malody_Windows_4.3.7.7z)
 
+### 不喘气的（雾）
+
+[123盘](https://www.123pan.com/s/0Sv8Vv-4oqXH)
