@@ -133,7 +133,7 @@ pagination:
 ############## 其他 ##############
 
 # 页脚
-footer: '<font size=3> Cpoyright © 2022 izoyoi team <br/> Power by [Hexo](http://hexo.io/) <font>' # markdown语法
+footer: '<font size=3> Copyright © 2022 izoyoi team <br/> Power by [Hexo](http://hexo.io/) <font>' # markdown语法
 
 #有分类时是否开启menu分类页和自定义名字
 menu_categories:
