@@ -79,7 +79,7 @@ contact:
   Github:
     - https://github.com/samuioto/izoyoi
     - ri-github-line
-  email:
+  qq:
     - https://jq.qq.com/?_wv=1027&k=drFazFIc
     - ri-qq-line
 
@@ -133,7 +133,7 @@ pagination:
 ############## 其他 ##############
 
 # 页脚
-footer: '<font size=3> Copyright © 2022 izoyoi team <br/> Power by [Hexo](http://hexo.io/) <font>' # markdown语法
+footer: '<font size=3> Copyright © 2022 izoyoi team <br/> Powered by [Hexo](http://hexo.io/) <font>' # markdown语法
 
 #有分类时是否开启menu分类页和自定义名字
 menu_categories:
