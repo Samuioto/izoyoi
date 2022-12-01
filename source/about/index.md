@@ -13,7 +13,7 @@ izoyoi新站点部分参考了lowlight的设计逻辑，我们向Team Lowlight�
 
 ###### 联系我们
 
-[邮箱](mailto:3011728934@qq.com)
+[邮箱](mailto:izoyoi@163.com)
 
 [官方QQ自来水厂（？](https://jq.qq.com/?_wv=1027&k=drFazFIc)
 
