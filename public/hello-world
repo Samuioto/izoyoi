@@ -53,13 +53,13 @@
         
           <a href="/about" class="nav-link">
             <li class="menu-li  animate__animated  animate__fadeInUp">
-              关于
+              关于和声明
             </li>
           </a>
         
-          <a href="/laws" class="nav-link">
+          <a href="/log" class="nav-link">
             <li class="menu-li  animate__animated  animate__fadeInUp">
-              声明
+              更新日志
             </li>
           </a>
         
@@ -104,13 +104,13 @@
   
     <a href="/about" class="mobile-nav-link">
       <div class="mobile-menu-child animate__animated  animate__fadeInUp">
-        <span>关于</span>
+        <span>关于和声明</span>
       </div>
     </a>
   
-    <a href="/laws" class="mobile-nav-link">
+    <a href="/log" class="mobile-nav-link">
       <div class="mobile-menu-child animate__animated  animate__fadeInUp">
-        <span>声明</span>
+        <span>更新日志</span>
       </div>
     </a>
   

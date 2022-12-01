@@ -54,8 +54,8 @@ site_description: 一个简单的音乐游戏下载站 #The default meta descrip
 menu:
   主页: /
   下载: /download
-  关于: /about
-  声明: /laws
+  关于和声明: /about
+  更新日志: /log
  
 
 
@@ -141,7 +141,7 @@ menu_categories:
   name: 分类
 
 #可自定义归档标签页名字
-archive_tab_name: Blog
+archive_tab_name: download
 
 
 #图片懒加载
