@@ -13,6 +13,10 @@ date: 2022-11-29 17:08:22
 
 本站下载服务为izoyoi提供，与游戏官方无关
 
+由于主要节点更换，一定时间内下载速率可能不尽人意
+
+我们会尽可能的进行优化以保障下载速率
+
 xapk,apks可以使用[SAI](https://izoyoi.art/SAI.apk)安装，MIUI安装失败可参考[查看](https://www.bilibili.com/video/BV1jR4y157WL/?vd_source=e6495137190dde4b9795a18285ee0d39)
 
 ---
@@ -32,7 +36,7 @@ xapk,apks可以使用[SAI](https://izoyoi.art/SAI.apk)安装，MIUI安装失败�
 
 [主要节点](http://dl.izoyoi.art/arcaea_4.1.4c.apk)
 
-[Cloudflare](http://dl.414.icu/arcaea_4.1.4c.apk)
+[Cloudflare代理](http://dl.414.icu/arcaea_4.1.4c.apk)
 
 </details>
 
@@ -41,7 +45,7 @@ xapk,apks可以使用[SAI](https://izoyoi.art/SAI.apk)安装，MIUI安装失败�
 
 [主要节点](http://dl.izoyoi.art/arcaea_4.1.4.apk)
 
-[Cloudflare](http://dl.414.icu/arcaea_4.1.4.apk)
+[Cloudflare代理](http://dl.414.icu/arcaea_4.1.4.apk)
 
 </details>
 
