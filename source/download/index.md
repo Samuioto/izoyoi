@@ -58,52 +58,17 @@ xapk,apks可以使用[SAI](https://414.icu/SAI.apk)安装，MIUI安装失败可�
 
 </details>
 
-![](https://414.icu/img/phigros.png) 
+![](https://414.icu/img/iidx.png) 
 
-#### Phigros
+#### beatmania IIDX ULTIMATE MOBILE
 
-最新版本请前往[taptap](https://www.taptap.cn/app/165287)
+[1.17.1](https://dl.414.icu/iidxm_1.17.1.apk)
 
-<details>
-<summary>其他版本</summary>
+![](https://414.icu/img/dr.png) 
 
-[2022愚人节（2.1.4）](http://dl.414.icu/Phigros_2.1.4.apk)
+#### Dancerail3
 
-[2021愚人节（1.6.5）](http://dl.414.icu/Phigros_1.6.5.apk)
-
-[2020愚人节（1.4.1）](http://dl.414.icu/Phigros_1.4.1.apk)
-
-[2019圣诞节（1.2.4）](http://dl.414.icu/Phigros_1.2.4.apk)
-
-[1.x最后版本（1.6.11）](http://dl.414.icu/Phigros_1.6.11.apk)
-
-[1.4.3](http://dl.414.icu/Phigros_1.4.3.apk)
-
-</details>
-
-![](https://414.icu/img/orz.png) 
-
-#### Orzmic
-
-<details>
-<summary>最新版本（2.11.12）</summary>
-
-[主要节点](https://dl.414.icu/orzmic_2.11.12.apk)
-
-[备用节点](https://dl.izoyoi.art/orzmic_2.11.12.apk)
-
-[Taptap](https://www.taptap.cn/app/194778)
-
-</details>
-
-<details>
-<summary>其他版本</summary>
-
-Orzmic并不删除愚人节谱面，因此没必要收录愚人节版本
-
-[1.8.22 旧界面最后一个版本](https://dl.414.icu/orzmic_1.8.22.apk)
-
-</details>
+[1.55](http://dl.414.icu/dr3_1.55.xapk)
 
 ![](https://414.icu/img/deemo.png) 
 
@@ -140,18 +105,6 @@ Orzmic并不删除愚人节谱面，因此没必要收录愚人节版本
 
 [2.19.1](http://dl.414.icu/Lanota_2.19.1.apk)
 
-![](https://414.icu/img/or.png) 
-
-#### OverRapid
-
-[1591v34MK32](http://dl.414.icu/OverRapid_1591v34MK32.apk)
-
-![](https://414.icu/img/takumi.png) 
-
-#### Takumi³
-
-[4.8.25](https://dl.414.icu/TAKUMI_4.8.25.apk)
-
 ![](https://414.icu/img/voez.png) 
 
 #### 兰空VOEZ
@@ -168,11 +121,82 @@ Orzmic并不删除愚人节谱面，因此没必要收录愚人节版本
 
 [1.8.0](https://dl.414.icu/Liminality_1.8.0.apk)
 
-![](https://414.icu/img/dr.png) 
+![](https://414.icu/img/orz.png) 
 
-#### Dancerail3
+#### Orzmic
 
-[1.55](http://dl.414.icu/dr3_1.55.xapk)
+<details>
+<summary>最新版本（2.11.12）</summary>
+
+[主要节点](https://dl.414.icu/orzmic_2.11.12.apk)
+
+[备用节点](https://dl.izoyoi.art/orzmic_2.11.12.apk)
+
+[Taptap](https://www.taptap.cn/app/194778)
+
+</details>
+
+<details>
+<summary>其他版本</summary>
+
+Orzmic并不删除愚人节谱面，因此没必要收录愚人节版本
+
+[1.8.22 旧界面最后一个版本](https://dl.414.icu/orzmic_1.8.22.apk)
+
+</details>
+
+![](https://414.icu/img/or.png) 
+
+#### OverRapid
+
+[1591v34MK32](http://dl.414.icu/OverRapid_1591v34MK32.apk)
+
+![](https://414.icu/img/phigros.png) 
+
+#### Phigros
+
+最新版本请前往[taptap](https://www.taptap.cn/app/165287)
+
+<details>
+<summary>其他版本</summary>
+
+[2022愚人节（2.1.4）](http://dl.414.icu/Phigros_2.1.4.apk)
+
+[2021愚人节（1.6.5）](http://dl.414.icu/Phigros_1.6.5.apk)
+
+[2020愚人节（1.4.1）](http://dl.414.icu/Phigros_1.4.1.apk)
+
+[2019圣诞节（1.2.4）](http://dl.414.icu/Phigros_1.2.4.apk)
+
+[1.x最后版本（1.6.11）](http://dl.414.icu/Phigros_1.6.11.apk)
+
+[1.4.3](http://dl.414.icu/Phigros_1.4.3.apk)
+
+</details>
+
+![](https://414.icu/img/ravon.png) 
+
+#### RAVON
+
+[2.3.0](https://dl.414.icu/RAVON_2.3.0.xapk)
+
+![](https://414.icu/img/takumi.png) 
+
+#### Takumi³
+
+[4.8.25](https://dl.414.icu/TAKUMI_4.8.25.apk)
+
+![](https://414.icu/img/twir.png) 
+
+#### Twirdora
+
+[1.0.12](https://dl.414.icu/Twirdora_1.0.12.apk)
+
+![](https://414.icu/img/twir.png) 
+
+#### 阳春白雪Lyrica
+
+[4.6.3](https://dl.414.icu/Lyrica_4.6.3.apk)
 
 ### 社区驱动
 

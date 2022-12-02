@@ -3,11 +3,11 @@ title: log
 date: 2022-12-01 07:51:17
 ---
 
-#### 2022/11/30
+### 2022/11/30
 
 * 网站正式开放，比起beta站点增加了游戏图标的显示，优化了下排版，[修复了cytoid说明导致移动端页面超出范围的问题](https://github.com/Samuioto/izoyoi/commit/9fb6c5a4a502e982f5cb82dbdaeae80546b2367b)
 
-#### 2022/12/1
+### 2022/12/1
 
 * 网站相关
   
@@ -26,7 +26,35 @@ date: 2022-12-01 07:51:17
   统一下载链接为dl.*
   
   为部分条目加入了下拉菜单（能舒服些）
+  
+  [服务器切换](https://github.com/Samuioto/izoyoi/commit/f6282f86aa2fc64f75cfaddccdbe3ab6b7cb1c2f)
+  
+  [网页全局黑白](https://github.com/Samuioto/izoyoi/commit/04c973af4d328c342ef3e1734892d273da441c72)
 
 * 游戏内容更新
   
   Lovelive 9.9.1 --> 9.9.2
+  
+#### 2022/12/2
+  
+* 网站相关
+    
+   切换主要下载地址至414.icu
+    
+   合并关于页面和声明页面
+   
+* 游戏内容更新
+
+   RAVON + 2.3.0
+   
+   beatmania IIDX + 1.17.1
+   
+   Twirdora + 1.0.12
+   
+   lyrica + 4.6.3
+   
+* 其他
+   
+   例行维护
+  
+  
