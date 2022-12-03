@@ -32,7 +32,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: #333333;
+  color: #1F1E33;
 }
 body,
 p,
@@ -46,7 +46,7 @@ span {
   background-color: #fff;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #1A98FF;
+  background-color: #FF9028;
 }
 .menu-outer {
   font-family: Gothic;
@@ -79,11 +79,11 @@ span {
   transition: all 0.3s;
 }
 .menu-li:hover {
-  color: #333333;
+  color: #1F1E33;
 }
 .active-link li {
   position: relative;
-  color: #333333;
+  color: #1F1E33;
 }
 .active-link li:after {
   content: "";
@@ -93,7 +93,7 @@ span {
   right: 0;
   bottom: -0.2em;
   transition: all 0.3s;
-  background-color: #1A98FF;
+  background-color: #FF9028;
 }
 .active-link li:hover:after {
   right: 50%;
@@ -108,7 +108,7 @@ span {
   background: #fff;
   border-radius: 3px;
   min-width: 100px;
-  border: 1px solid #1A98FF;
+  border: 1px solid #FF9028;
   position: absolute;
   left: -30px;
   top: 30px;
@@ -124,7 +124,20 @@ span {
   color: #898FA0;
 }
 #sort .categories-outer ul li a:hover {
-  color: #333333;
+  color: #1F1E33;
+}
+.nivoSlider {
+/*轮换图片的大小*/
+  position: relative;
+  width: 780px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.nivoSlider .slide {
+  width: 780px;
+  height: 200px;
+  position: absolute;
 }
 .body-outer {
   height: 100%;
@@ -167,7 +180,7 @@ span {
   right: 0;
   bottom: -0.04em;
   transition: all 0.3s;
-  background-color: #1A98FF;
+  background-color: #FF9028;
 }
 .intro-sub a:hover:after {
   right: 50%;
@@ -209,7 +222,7 @@ a {
   margin: 7px 0px;
 }
 .archive-post:hover .archive-post-title {
-  color: #1A98FF;
+  color: #FF9028;
 }
 .archive-post-title {
   font-size: 1.1em;
@@ -219,9 +232,9 @@ a {
 }
 .archive-post-date {
   font-family: Merriweather;
-  color: #1A98FF;
+  color: #FF9028;
   font-weight: 1000;
-  background-color: #DDF0FF;
+  background-color: #FFBE5D;
   font-size: 0.8em;
   border-radius: 5px;
   padding: 0px 10px;
@@ -239,8 +252,8 @@ a {
 }
 .paginator .extend {
   margin: 0 10px;
-  background-color: #DDF0FF;
-  color: #1A98FF;
+  background-color: #FFBE5D;
+  color: #FF9028;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 0.9em;
@@ -249,7 +262,7 @@ a {
 }
 .paginator .extend:hover {
   color: #fff;
-  background-color: #1A98FF;
+  background-color: #FF9028;
 }
 .footer-outer {
   display: flex;
@@ -272,7 +285,7 @@ a {
   transition: all 0.3s;
 }
 .footer-text a:hover {
-  color: #1A98FF;
+  color: #FF9028;
 }
 .footer-contact {
   font-size: 1.2em;
@@ -293,7 +306,7 @@ a {
   border-radius: 100%;
 }
 .footer-li:hover i {
-  color: #1A98FF;
+  color: #FF9028;
 }
 .gitalk-saysay > #gitalk-container .gt-counts {
   display: none;
@@ -338,7 +351,7 @@ a {
   right: 45%;
   bottom: 98%;
   transition: all 0.3s;
-  background-color: #1A98FF;
+  background-color: #FF9028;
 }
 .img-show-post {
   display: flex;
@@ -412,7 +425,7 @@ a {
   right: 48%;
   bottom: 98%;
   transition: all 0.3s;
-  background-color: #1A98FF;
+  background-color: #FF9028;
 }
 .post-content-outer {
   margin-top: 50px;
@@ -431,7 +444,7 @@ a {
 .post-content-inner h5,
 .post-content-inner h6 {
   margin: 15px 0px;
-  color: #333333;
+  color: #1F1E33;
   font-weight: normal;
   font-family: Gothic;
 }
@@ -473,7 +486,7 @@ a {
   line-height: 1.65;
 }
 .post-content-inner a {
-  color: #1A98FF;
+  color: #FF9028;
 }
 .post-content-inner a:hover {
   text-decoration: underline;
@@ -485,7 +498,7 @@ a {
   display: block;
 }
 strong {
-  color: #1A98FF;
+  color: #FF9028;
   display: inline-block;
 }
 hr {
@@ -517,7 +530,7 @@ ol {
 .post-content-inner ol li::before {
   content: counter(li);
   font-family: Merriweather;
-  color: #333333;
+  color: #1F1E33;
   margin-right: 0.7em;
   text-align: right;
 }
@@ -598,7 +611,7 @@ code {
   font-size: 0.8em;
   font-weight: 1000;
   background-color: #f8f8f8;
-  color: #333333;
+  color: #1F1E33;
   padding: 4px 6px;
   margin: 0px 4px;
   font-family: hack-regular, hack-italic, hack-bold, hack-bolditalic;
@@ -658,40 +671,40 @@ li p {
 }
 #gitalk-container .gt-header-controls>.gt-header-controls-tip,
 .gt-svg {
-  color: #1A98FF;
+  color: #FF9028;
 }
 #gitalk-container .gt-header-avatar>img,
 .gt-comment-avatar>img {
   border-radius: 100% !important;
 }
 #gitalk-container .gt-btn-preview {
-  border: 1px solid #1A98FF;
+  border: 1px solid #FF9028;
   border-radius: 20px;
   transition: all 0.3s;
 }
 #gitalk-container .gt-btn-preview:hover {
-  background-color: #1A98FF;
+  background-color: #FF9028;
   color: #fff;
 }
 #gitalk-container .gt-btn-login {
-  border: 1px solid #1A98FF;
-  background-color: #1A98FF;
+  border: 1px solid #FF9028;
+  background-color: #FF9028;
   border-radius: 20px;
   transition: all 0.3s;
 }
 #gitalk-container .gt-btn-login:hover {
   background-color: #fff;
-  color: #1A98FF;
+  color: #FF9028;
 }
 #gitalk-container .gt-btn-public {
-  border: 1px solid #1A98FF;
-  background-color: #1A98FF;
+  border: 1px solid #FF9028;
+  background-color: #FF9028;
   border-radius: 20px;
   transition: all 0.3s;
 }
 #gitalk-container .gt-btn-public:hover {
   background-color: #fff;
-  color: #1A98FF;
+  color: #FF9028;
 }
 .post-content-inner {
   display: flex;
@@ -808,14 +821,14 @@ li p {
   padding-left: 13px;
   padding-right: 46px;
   background: transparent;
-  border: 2px solid #1A98FF;
+  border: 2px solid #FF9028;
 }
 .search-input-outer button {
   height: 42px;
   width: 42px;
   cursor: pointer;
   position: absolute;
-  background: #1A98FF;
+  background: #FF9028;
   color: #fff;
 }
 #local-search-result {
@@ -835,10 +848,10 @@ li p {
 }
 #local-search-result .search-result-title:hover {
   text-decoration: none;
-  color: #1A98FF;
+  color: #FF9028;
 }
 #local-search-result .search-keyword {
-  color: #1A98FF;
+  color: #FF9028;
   font-weight: 1000;
 }
 #mobile-main {
@@ -877,7 +890,7 @@ li p {
   cursor: pointer;
 }
 .moibile-active-link span {
-  box-shadow: inset 0 -0.2em 0 #1A98FF;
+  box-shadow: inset 0 -0.2em 0 #FF9028;
 }
 #mobile-menu {
   display: none;
