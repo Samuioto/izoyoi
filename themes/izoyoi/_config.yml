@@ -87,10 +87,10 @@ contact:
 
 # 文章toc索引栏设置
 toc:
-  open: true # 是否开启
+  open: false # 是否开启
   side: true  # 选择toc的位置，填true的话toc将会显示在文章的侧边，填false的话 toc将出现在文章的开头
-  max: 2 #最大深度
-  min: 2 #最小深度
+  max: 3 #最大深度
+  min: 3 #最小深度
 
 # 插件
 plugins:
@@ -146,4 +146,4 @@ archive_tab_name: download
 
 #图片懒加载
 lazyload:
-  open: true #是否开启
+  open: false #是否开启

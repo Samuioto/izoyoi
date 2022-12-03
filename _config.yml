@@ -107,3 +107,10 @@ deploy:
 # TOC Support
 toc:
    maxdepth: 3
+   
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
