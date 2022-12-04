@@ -9,6 +9,7 @@ date: 2022-11-29 17:08:22
 <li><a href="#%E6%99%AE%E9%80%9A%E7%B1%BB%E5%88%AB">普通类别</a><ul>
 <li><a href="#arcaea">Arcaea</a></li>
 <li><a href="#beatmania-iidx-ultimate-mobile">beatmania IIDX ULTIMATE MOBILE</a></li>
+<li><a href="#chainbeet">ChainBeeT</a></li>
 <li><a href="#dancerail3">Dancerail3</a></li>
 <li><a href="#deemo">Deemo</a></li>
 <li><a href="#dynamix">Dynamix</a></li>
@@ -51,9 +52,7 @@ date: 2022-11-29 17:08:22
 
 本站下载服务为izoyoi提供，与游戏官方无关
 
-由于主要节点更换，一定时间内下载速率可能不尽人意
-
-我们会尽可能的进行优化以保障下载速率
+如需分享请分享源站地址414.icu，请勿直接分享下载链接
 
 xapk,apks可以使用[SAI](https://414.icu/SAI.apk)安装，MIUI安装失败可参考[查看](https://www.bilibili.com/video/BV1jR4y157WL/?vd_source=e6495137190dde4b9795a18285ee0d39)
 
@@ -103,6 +102,14 @@ xapk,apks可以使用[SAI](https://414.icu/SAI.apk)安装，MIUI安装失败可�
 ### beatmania IIDX ULTIMATE MOBILE
 
 [1.17.1](https://dl.izoyoi.icu/iidxm_1.17.1.apk)
+
+---
+
+![](https://414.icu/img/cb.png) 
+
+### ChainBeeT
+
+[4.8.2](https://dl.izoyoi.icu/ChainBeeT_4.8.2.apk.apk)
 
 ---
 
