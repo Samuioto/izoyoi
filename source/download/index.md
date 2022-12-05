@@ -109,7 +109,7 @@ xapk,apks可以使用[SAI](https://414.icu/SAI.apk)安装，MIUI安装失败可�
 
 ### ChainBeeT
 
-[4.8.2](https://dl.izoyoi.icu/ChainBeeT_4.8.2.apk.apk)
+[4.8.2](https://dl.izoyoi.icu/ChainBeeT_4.8.2.apk)
 
 ---
 
