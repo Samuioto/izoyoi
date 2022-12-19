@@ -1,68 +1,28 @@
----
-title: 下载
-date: 2022-11-29 17:08:22
----
+
 
 <details>
 <summary>展开快速索引</summary>
-<ul>
-<li><a href="#%E6%99%AE%E9%80%9A%E7%B1%BB%E5%88%AB">普通类别</a><ul>
-<li><a href="#arcaea">Arcaea</a></li>
-<li><a href="#beatmania-iidx-ultimate-mobile">beatmania IIDX ULTIMATE MOBILE</a></li>
-<li><a href="#chainbeet">ChainBeeT</a></li>
-<li><a href="#dancerail3">Dancerail3</a></li>
-<li><a href="#deemo">Deemo</a></li>
-<li><a href="#dynamix">Dynamix</a></li>
-<li><a href="#kalpa">KALPA</a></li>
-<li><a href="#lanota">Lanota</a></li>
-<li><a href="#%E5%85%B0%E7%A9%BAvoez">兰空VOEZ</a></li>
-<li><a href="#liminality%E9%98%88%E9%99%90">Liminality阈限</a></li>
-<li><a href="#orzmic">Orzmic</a></li>
-<li><a href="#overrapid">OverRapid</a></li>
-<li><a href="#phigros">Phigros</a></li>
-<li><a href="#ravon">RAVON</a></li>
-<li><a href="#takumi3">Takumi³</a></li>
-<li><a href="#twirdora">Twirdora</a></li>
-<li><a href="#%E9%98%B3%E6%98%A5%E7%99%BD%E9%9B%AAlyrica">阳春白雪Lyrica</a></li>
-</ul>
-</li>
-<li><a href="#%E7%A4%BE%E5%8C%BA%E9%A9%B1%E5%8A%A8">社区驱动</a><ul>
-<li><a href="#cytoid">Cytoid</a></li>
-<li><a href="#malody">Malody</a></li>
-<li><a href="#sonolus">Sonolus</a></li>
-</ul>
-</li>
-<li><a href="#%E5%8D%A1%E7%89%8C%E5%85%BB%E6%88%90">卡牌/养成</a><ul>
-<li><a href="#%E6%A2%A6%E6%83%B3%E5%8D%8F%E5%A5%8F%E6%9B%B2%E5%B0%91%E5%A5%B3%E4%B9%90%E5%9B%A2%E6%B4%BE%E5%AF%B9">梦想协奏曲！少女乐团派对！</a></li>
-<li><a href="#d4dj-groove-mix">D4DJ Groove MIX</a></li>
-<li><a href="#%E4%B8%96%E7%95%8C%E8%AE%A1%E7%94%BB-%E7%BC%A4%E7%BA%B7%E8%88%9E%E5%8F%B0-feat%E5%88%9D%E9%9F%B3%E6%9C%AA%E6%9D%A5">世界计画 缤纷舞台！ feat.初音未来</a></li>
-<li><a href="#love-live-%E5%AD%A6%E5%9B%AD%E5%81%B6%E5%83%8F%E7%A5%AD">Love Live! 学园偶像祭</a></li>
-</ul>
-</li>
-<li><a href="#%E6%A1%8C%E9%9D%A2%E7%AB%AF">桌面端</a><ul>
-<li><a href="#osu">OSU!</a></li>
-<li><a href="#malody-1">Malody</a></li>
-</ul>
-</li>
-<li><a href="#%E4%B8%8D%E5%96%98%E6%B0%94%E7%9A%84%E9%9B%BE">不喘气的</a></li>
-</ul>
+<!-- toc -->
+
 </details>
 
----
+
+
+目前lowlight.net和616.sb均已重新开放
 
 本站下载服务为izoyoi提供，与游戏官方无关
 
 如需分享请分享源站地址414.icu，请勿直接分享下载链接
 
-xapk,apks可以使用[SAI](https://414.icu/SAI.apk)安装，MIUI安装失败可参考[查看](https://www.bilibili.com/video/BV1jR4y157WL/?vd_source=e6495137190dde4b9795a18285ee0d39)
+xapk,apks可以使用[SAI](https://414.icu/SAI.apk)安装，MIUI安装失败可参考[BV1jR4y157WL](https://www.bilibili.com/video/BV1jR4y157WL/?vd_source=e6495137190dde4b9795a18285ee0d39)
 
----
 
-<center>
 
-# 普通类别
 
-![](https://414.icu/img/arc.png) 
+
+## 普通类别
+
+ ![](https://414.icu/images/arc.png)
 
 ### Arcaea
 
@@ -73,16 +33,12 @@ xapk,apks可以使用[SAI](https://414.icu/SAI.apk)安装，MIUI安装失败可�
 
 [主要节点](http://dl.izoyoi.icu/arcaea_4.1.4c.apk)
 
-[备用节点](http://dl.izoyoi.art/arcaea_4.1.4c.apk)
-
 </details>
 
 <details>
 <summary>Play版本（4.1.4）</summary>
 
 [主要节点](http://dl.izoyoi.icu/arcaea_4.1.4.apk)
-
-[备用节点](http://dl.izoyoi.art/arcaea_4.1.4.apk)
 
 </details>
 
@@ -95,66 +51,83 @@ xapk,apks可以使用[SAI](https://414.icu/SAI.apk)安装，MIUI安装失败可�
 
 </details>
 
----
 
-![](https://414.icu/img/iidx.png) 
+
+ ![](https://414.icu/images/iidx.png) 
 
 ### beatmania IIDX ULTIMATE MOBILE
 
 [1.17.1](https://dl.izoyoi.icu/iidxm_1.17.1.apk)
 
----
 
-![](https://414.icu/img/cb.png) 
+
+ ![](https://414.icu/images/berrym.png) 
+
+### Berry Melody 浆果旋律
+
+[1.1.0](https://dl.izoyoi.icu/BerryMelody_1.1.0.apk)
+
+
+
+ ![](https://414.icu/images/cb.png) 
 
 ### ChainBeeT
 
-[4.8.2](https://dl.izoyoi.icu/ChainBeeT_4.8.2.apk)
+[4.9.0](https://dl.izoyoi.icu/ChainBeeT_4.9.0.apk)
 
----
 
-![](https://414.icu/img/dr.png) 
+
+ ![](https://414.icu/images/dr.png) 
 
 ### Dancerail3
 
 [1.55](http://dl.izoyoi.icu/dr3_1.55.xapk)
 
----
 
-![](https://414.icu/img/deemo.png) 
 
-### Deemo
+ ![](https://414.icu/images/deemo2.png) 
 
-方便管理就把一代二代放一块了
+### Deemo II
 
-<details>
-<summary>最新版本</summary>
-
-[Deemo 5.0.4](http://dl.izoyoi.icu/Deemo_5.0.4.xapk)
-
-[Deemo II 2.1.2](http://dl.izoyoi.icu/DEEMOII_2.1.2.xapk)
+[2.1.2](http://dl.izoyoi.icu/DEEMOII_2.1.2.xapk)
 
 </details>
 
----
 
-![](https://414.icu/img/dy.png) 
+
+ ![](https://414.icu/images/dy.png) 
 
 ### Dynamix
 
 [3.16.08](http://dl.izoyoi.icu/Dynamix_3.16.08.xapk)
 
----
 
-![](https://414.icu/img/kalpa.png) 
+
+ ![](https://414.icu/images/hexah.png) 
+
+### Hexa Hysteria 歇斯特里症
+
+[1.21.30](https://dl.izoyoi.icu/HexaHysteria_1.21.30.apk)
+
+
+
+ ![](https://414.icu/images/iter.png) 
+
+### Iter
+
+[1.2.1](https://dl.izoyoi.icu/iter_1.2.1.apk)
+
+
+
+ ![](https://414.icu/images/kalpa.png) 
 
 ### KALPA
 
 [2.0.17](http://dl.izoyoi.icu/KALPA_2.0.17.xapk)
 
----
 
-![](https://414.icu/img/lanota.png) 
+
+ ![](https://414.icu/images/lanota.png) 
 
 ### Lanota
 
@@ -162,38 +135,24 @@ xapk,apks可以使用[SAI](https://414.icu/SAI.apk)安装，MIUI安装失败可�
 
 [2.19.1](http://dl.izoyoi.icu/Lanota_2.19.1.apk)
 
----
 
-![](https://414.icu/img/voez.png) 
+
+ ![](https://414.icu/images/voez.png) 
 
 ### 兰空VOEZ
 
-典藏版与play版数据不互通
+[2.2.1](https://dl.izoyoi.icu/VOEZ_2.2.1.xapk)
 
-[典藏版](https://dl.izoyoi.icu/VOEZCN.apk)
 
-[Play 2.2.1](https://dl.izoyoi.icu/VOEZ_2.2.1.xapk)
 
----
-
-![](https://414.icu/img/li.png) 
-
-### Liminality阈限
-
-[1.8.0](https://dl.izoyoi.icu/Liminality_1.8.0.apk)
-
----
-
-![](https://414.icu/img/orz.png) 
+ ![](https://414.icu/images/orz.png) 
 
 ### Orzmic
 
 <details>
-<summary>最新版本（2.11.12）</summary>
+<summary>最新版本（2.12.12）</summary>
 
-[主要节点](https://dl.izoyoi.icu/orzmic_2.11.12.apk)
-
-[备用节点](https://dl.izoyoi.art/orzmic_2.11.12.apk)
+[主要节点](https://dl.izoyoi.icu/Orzmic_2.12.12.apk)
 
 [Taptap](https://www.taptap.cn/app/194778)
 
@@ -208,17 +167,35 @@ Orzmic并不删除愚人节谱面，因此没必要收录愚人节版本
 
 </details>
 
----
 
-![](https://414.icu/img/or.png) 
+
+ ![](https://414.icu/images/or.png) 
 
 ### OverRapid
 
 [1591v34MK32](http://dl.izoyoi.icu/OverRapid_1591v34MK32.apk)
 
----
 
-![](https://414.icu/img/phigros.png) 
+
+ ![](https://414.icu/images/para.png) 
+
+### Paradigm:reboot 范式起源
+
+apks文件，需要使用[SAI](https://414.icu/SAI.apk)安装
+
+[1.0.1](http://dl.izoyoi.icu/ParadigmReboot_1.0.1.apks)
+
+
+
+ ![](https://414.icu/images/muse.png) 
+
+### Project.Muse 穆斯计划
+
+[6.9.3](http://dl.izoyoi.icu/projectmuse_6.9.3.apk)
+
+
+
+ ![](https://414.icu/images/phigros.png) 
 
 ### Phigros
 
@@ -241,43 +218,45 @@ Orzmic并不删除愚人节谱面，因此没必要收录愚人节版本
 
 </details>
 
----
 
-![](https://414.icu/img/ravon.png) 
 
-### RAVON
+ ![](https://414.icu/images/rizline.png) 
 
-[2.3.0](https://dl.izoyoi.icu/RAVON_2.3.0.xapk)
+### Rizline
 
----
+**非对应地区玩家请禁用SIM卡后游玩，否则无法进入游戏**
 
-![](https://414.icu/img/takumi.png) 
+[港澳台1.0.2](https://dl.izoyoi.icu/rizline_tw_1.0.2.apk)
+
+
+
+ ![](https://414.icu/images/takumi.png) 
 
 ### Takumi³
 
-[4.8.25](https://dl.izoyoi.icu/TAKUMI_4.8.25.apk)
+[4.8.27](https://dl.izoyoi.icu/takumi_4.8.27.apk)
 
----
 
-![](https://414.icu/img/twir.png) 
+
+ ![](https://414.icu/images/twir.png) 
 
 ### Twirdora
 
 [1.0.12](https://dl.izoyoi.icu/Twirdora_1.0.12.apk)
 
----
 
-![](https://414.icu/img/lyrica.png) 
+
+ ![](https://414.icu/images/lyrica.png) 
 
 ### 阳春白雪Lyrica
 
 [4.6.3](https://dl.izoyoi.icu/Lyrica_4.6.3.apk)
 
----
 
-# 社区驱动
 
-![](https://414.icu/img/cytoid.png) 
+## 社区驱动
+
+ ![](https://414.icu/images/cytoid.png) 
 
 ### Cytoid
 
@@ -296,97 +275,127 @@ Taptap版本和Play版本可以不修改直接共存，但不建议
 
 [Taptap 1.5.5](http://dl.izoyoi.icu/Cytoid_1.5.5.apk)
 
----
 
-![](https://414.icu/img/ma.ico) 
+
+ ![](https://414.icu/images/laye.png) 
+
+### Layesta
+
+[1.5.1](https://dl.izoyoi.icu/Layesta_1.5.1.apk)
+
+
+
+ ![](https://414.icu/images/ma.ico) 
 
 ### Malody
 
 [4.3.7](http://dl.izoyoi.icu/Malody_4.3.7.apk)
 
----
+[Windows 4.3.7](http://dl.izoyoi.icu/Malody_Windows_4.3.7.7z)
 
-![](https://414.icu/img/sonolus.png) 
+
+
+ ![](https://414.icu/images/sonolus.png) 
 
 ### Sonolus
 
 [官网](https://sonolus.com/)
 
-[0.6.3 (1) Beta](httpss://dl.izoyoi.icu/Sonolus_0.6.3_1.apk)
+[0.6.4 (1) Beta](httpss://dl.izoyoi.icu/Sonolus_0.6.4_1.apk)
 
----
 
-# 卡牌/养成
 
-![](https://414.icu/img/bang.png) 
+## 卡牌/养成
+
+ ![](https://414.icu/images/bang.png) 
 
 ### 梦想协奏曲！少女乐团派对！
 
 由于包体版本过多，建议前往[bangdream.fun](https://bangdream.fun/)按需求下载
 
-目前本站仅提供日服64位安装包
+目前本站仅提供部分区服armv8a（64位）安装包
 
-[6.5.0.164](https://dl.izoyoi.icu/bang-650-164.apk)
+[日服6.5.0.164](https://dl.izoyoi.icu/bang-650-164.apk)
 
----
+[国际服5.10.0](https://dl.izoyoi.icu/bang_en_5.10.0.apk)
 
-![](https://414.icu/img/d4dj.png) 
+[港澳台6.1.3](https://dl.izoyoi.icu/bang_tw_6.1.3.apk)
+
+
+
+ ![](https://414.icu/images/d4dj.png) 
 
 ### D4DJ Groove MIX
 
-目前仅提供日服
+[国际服4.5.25](https://dl.izoyoi.icu/d4dj_en_4.5.25.apk)
 
-[4.5.6](https://dl.izoyoi.icu/d4dj_jp_4.5.6.apk)
+[日服4.5.7](https://dl.izoyoi.icu/d4dj_jp_4.5.7.apk)
 
----
+[港澳台4.0.9](https://dl.izoyoi.icu/d4dj_tw_4.0.9.apk)
 
-![](https://414.icu/img/pjsk.png) 
+
+
+ ![](https://414.icu/images/pjsk.png) 
 
 ### 世界计画 缤纷舞台！ feat.初音未来
 
-目前仅提供日服
+[国际服1.3.2](https://dl.izoyoi.icu/pjsk_en_1.3.2.apk)
 
-[2.3.5](https://dl.izoyoi.icu/pjsk_jp_2.3.5.apk)
+[日服2.3.5](https://dl.izoyoi.icu/pjsk_jp_2.3.5.apk)
 
----
+[亚服繁中 1.13.3](https://dl.izoyoi.icu/pjsk_asia_1.13.3.apk)
 
-![](https://414.icu/img/lovelive.png) 
+
+
+ ![](https://414.icu/images/lovelive.png) 
 
 ### Love Live! 学园偶像祭
 
-目前仅提供日服
-
 可能会检测ROOT
 
-[9.9.2](http://dl.izoyoi.icu/lovelive_jp_9.9.2.apk)
+[日服9.9.3](http://dl.izoyoi.icu/lovelive_jp_9.9.3.apk)
 
----
+[国际服9.9.3](http://dl.izoyoi.icu/lovelive_en_9.9.3.apk)
 
-# 桌面端
 
-![](https://414.icu/img/osu.ico) 
 
-### OSU!
+ ![](https://414.icu/images/es.png) 
 
-OSU!有两个版本，一个是仅适用于Windows的经典版本，另一个是变动频繁的Lazer版本。目前只提供官网经典版本安装器的下载
+### 偶像梦幻祭 あんスタ！！
 
-[osu!installer](http://dl.izoyoi.icu/osu!install.exe)
+目前仅提供日服
 
----
+[1.0.92](http://dl.izoyoi.icu/es2_jp_1.0.92.apk)
 
-![](https://414.icu/img/ma.ico) 
 
-### Malody
 
-[4.3.7](http://dl.izoyoi.icu/Malody_Windows_4.3.7.7z)
+## 停更游戏（超过一年无活跃）
 
----
+ ![](https://414.icu/images/mar.png)
 
-# 不喘气的（雾）
+<details>
+<summary>展开停更游戏版本列表</summary>
 
-![](https://414.icu/img/mar.png)
+SEVEN'S CODE 1.12.4
+
+Protocol_hyperspace Diver 2.0.2
+
+Groove Coaster 2 1.0.17
+
+Cytus 10.1.4
+
+Tone Sphere 1.9.3
+
+SETTLIGHTS 2.1.8
+
+Polytone 1.11
+
+Liminality 1.8.0
+
+Deemo 5.0.4
+
+</details>
 
 [123盘](https://www.123pan.com/s/0Sv8Vv-4oqXH)
 
-</center>
 

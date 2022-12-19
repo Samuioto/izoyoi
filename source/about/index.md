@@ -4,8 +4,8 @@ date: 2022-11-29 16:44:59
 
 ---
 
-本站基于[Hexo](http://hexo.io/)构建，主题修改自[White](https://github.com/FuShaoLei/hexo-theme-white)
-<br/>Cpoyright © 2022 izoyoi team
+本站基于[Hexo](http://hexo.io/)构建，主题修改自[Redefine](https://github.com/EvanNotFound/hexo-theme-redefine)
+<br/>Cpoyright © 2022 izoyoi Network
 
 要查看izoyoi的使用条例和隐私政策，请移步[声明](laws)
 
@@ -31,3 +31,10 @@ izoyoi新站点部分参考了lowlight的设计逻辑，我们向Team Lowlight�
 ###### Special thanks
 
 [宝洁云](https://baojie666.buzz)
+
+##### 捐赠
+
+捐赠将用于支付服务器等运行费用
+
+[点击前往捐赠页面](https://414.icu/donate)
+

@@ -1,149 +1,265 @@
-############## style ##############
+# ---------------------------------------------------------------------------------------
+#  Your basic info
+# ---------------------------------------------------------------------------------------
+base_info:
+  title: 夜·izoyoi # Site title
+  author: izoyoi # Author name
+  url: https://414.icu # Site url
+  # Logo image (You can use local image, image external link or don’t fill)
+  logo_img: # logo image on the left of the navigation bar
+
+# ---------------------------------------------------------------------------------------
+# Theme style settings
+# ---------------------------------------------------------------------------------------
 style:
-  layout:
-    max-width: 1130px #总体宽度
-    post-max-width: 800px #文章内容宽度
-  color:
-    theme-main: "#FF9028" # 主色调
-    theme-secondary: "#FFBE5D" # 次色调
-    text-main: "#1F1E33" # 文字主色调
-    text-secondary: "#898FA0" # 文字次色调
-  animation:
-    open: true # 如果开启动画的话会引入animation.css
+  # Theme primary color
+  primary_color: "#005080"
+
+  # Avatar (You can use local image or image external link)
+  avatar: /images/avatar.svg # avatar of the author
+
+  # Favicon (You can use local image or image external link)
+  favicon: /images/favicon.ico # favicon of the site
+
+  # Article image align position
+  article_img_align: left # value: left | center
+
+  # Right side width
+  right_side_width: 210px #sidebar width, for toc
+
+  # Content area max width
+  content_max_width: 1000px #content max width, for article
+
+  #navigation bar background color (from left to right)
+  nav_color: 
+    left: "#f78736" #left side 
+    right: "#367df7"  #right side
+    transparency: 35 #percent (10-99)
+
+  # Mouse hover
+  hover:
+    shadow: true # shadow effect when the mouse hover
+    scale: false # scale effect when the mouse hover
+
+  # First screen
+  first_screen:
+    enable: true
+    background_image:
+      light: /images/bgl.png # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
+      dark: /images/bgd.png # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
+    title_color:
+      light: "#000000" # first screen title color (light mode)
+      dark: "#d1d1b6" # first screen title color (dark mode)
+    description: "Paradigm:Reboot安卓正式版更新" # the title in the middle of the first screen. HTML supported (e.g. svg html code of your logo)
+    des2: "点击前往下载"
+  # Scroll style settings
+  scroll:
+    progress_bar: # reading progress bar
+      enable: true 
+    percent: # reading progress percent
+      enable: false
+
+# ---------------------------------------------------------------------------------------
+# Social contact link
+# ---------------------------------------------------------------------------------------
+social_contact: # social contact icons in the first screen, you can add more by using fontawesome icon names
+  enable: true
+  links:
+    github: https://github.com/samuioto/izoyoi # your GitHub URL
+    instagram: # your Instagram URL
+    zhihu:  # your ZhiHu URL
+    twitter:  # your twitter URL
+    email:  mailto:izoyoi@163.com
+    # ...... # you can add more
+
+# ---------------------------------------------------------------------------------------
+# Navigation menu
+# ---------------------------------------------------------------------------------------
+menu: #you can customize, i18n files are in the theme's languages folder. fa-regular recommended
+  主页: 
+    path: / 
+    icon: # can be empty
+  下载: 
+    path: /download
+    icon: # can be empty
+  关于:
+    path: /about
+    icon:
+  更新日志:
+    path: /log
+    icon: 
+  # Status: 
+  #   path: https://status.evanluo.top/
+  #   icon: fa-regular fa-chart-bar
+  # About: 
+  #   icon: fa-regular fa-user
+  #   submenus:
+  #     Me: /about
+  #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
+  #     Blog: https://www.evanluo.top
+  #     Friends: /friends
+  # Links: 
+  #   icon: fa-regular fa-link
+  #   submenus:
+  #     Link1: /link1
+  #     Link2: /link2
+  #     Link3: /link3
+
+  # ...... # you can add more
 
 
-########## 关于主页的设置 ##########
-# home页可选类型
-home:
-  type: "home" # 主页的类型，可选 home | img | simple
 
-# archive页可选类型
-archive:
-  type: "img" # archive的类型，可选 img | simple
+# ---------------------------------------------------------------------------------------
+# Home page article block display settings
+# ---------------------------------------------------------------------------------------
+home_article:
+  category:
+    enable: false # show category in home page article block
+    limit: 3 # max number of categories shown in home page article block
+  tag:
+    enable: false # show tags in home page article block
+    limit: 3 # max number of tags shown in home page article block
 
-categories:
-  type: "img" # archive的类型，可选 img | simple
+# ---------------------------------------------------------------------------------------
+# Post page Settings
+# ---------------------------------------------------------------------------------------
+post:
+  # Post word count
+  # Dependencies: hexo-wordcount (npm install hexo-wordcount)
+  # See: https://github.com/willin/hexo-wordcount
+  word_count:
+    enable: false
+    wordcount: true # word count, one article
+    min2read: true # time to read, one article
 
-tags:
-  type: "img" # archive的类型，可选 img | simple
+  # Author label
+  author_label:
+    enable: false
+    auto: false # if true, show Lv1, Lv2, Lv3... , If false, show custom label
+    # label array item can be one or more
+    custom_label_list: ["lol"]
 
-archive_img_mode:
-  default_cover: #默认的cover
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/01.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/02.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/03.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/04.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/05.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/06.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/07.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/08.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/09.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/10.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/11.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/12.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/13.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/14.jpg
-    - https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/15.jpg
+# ---------------------------------------------------------------------------------------
+# Code copy
+# ---------------------------------------------------------------------------------------
+code_copy:
+  enable: false
 
-# icon
-icon:  #标签页图标
-#  header
-site_name: '  夜·izoyoi'
-site_description: 一个简单的音乐游戏下载站 #The default meta description for all the meta descriptions
-#Add description property to any page to change the meta description
-menu:
-  主页: /
-  下载: /download
-  关于和声明: /about
-  更新日志: /log
- 
-
-
-## 本地搜索
-search:
-  open: false # 是否开启
-  page: /search # 页面路径（通常命名为search）
-
-
-
-# 自我介绍
-intro:
-  title:  '欢迎'
-  sub: '[开始](download)你的下载' # markdown语法
-  avator: https://cdn.jsdelivr.net/gh/fushaolei/img/20200524104925.jpg #头像 暂时还没用到
-  author: izoyoi #所有文章的默认作者
-
-#联系方式
-#更多图标：https://remixicon.com/
-contact:
-  Github:
-    - https://github.com/samuioto/izoyoi
-    - ri-github-line
-  qq:
-    - https://jq.qq.com/?_wv=1027&k=drFazFIc
-    - ri-qq-line
-
-########## 关于文章的设置 ##########
-
-# 文章toc索引栏设置
+# ---------------------------------------------------------------------------------------
+# Table of Contents in the Sidebar
+# ---------------------------------------------------------------------------------------
 toc:
-  open: false # 是否开启
-  side: true  # 选择toc的位置，填true的话toc将会显示在文章的侧边，填false的话 toc将出现在文章的开头
-  max: 3 #最大深度
-  min: 3 #最小深度
+  enable: true
 
-# 插件
-plugins:
-  # 代码高亮，想要使用代码高亮，得先把根目录的_config.yml里的highlight的enable置成false
-  highlightjs:
-    js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js
-    css: https://cdn.jsdelivr.net/npm/highlight.js@10.1.1/styles/github.css
-    # more: https://www.jsdelivr.com/package/npm/highlight.js?path=styles
+  # Automatically add list number to toc.
+  number: false
 
-# 评论系统设置
-comments:
-  open: false #是否开启评论系统
-  system: gitalk #选择评论系统 可选 valine gitalk livere
-  # Valine
-  valine:
-    appid: #Leancloud应用的AppID  这里和下面的要换成你自己的啊QAQ
-    appkey: #Leancloud应用的AppKey
-    verify: false #验证码
-    notify: true #评论回复提醒
-    avatar: robohash #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
-    #头像类型可见： https://valine.js.org/avatar.html
-    placeholder: 留下你来过的痕迹~ #评论框占位符
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: true
+
+  # If true, open TOC every time when you enter the article page
+  init_open: true
+
+# ---------------------------------------------------------------------------------------
+# Post copyright info
+# ---------------------------------------------------------------------------------------
+copyright_info:
+  enable: false
+
+# ---------------------------------------------------------------------------------------
+# Website count
+# ---------------------------------------------------------------------------------------
+website_count:
+  # busuanzi
+  # See: http://ibruce.info/2015/04/04/busuanzi/
+  busuanzi_count:
+    enable: false
+    site_uv: true
+    site_pv: true
+    page_pv: true
+
+# ---------------------------------------------------------------------------------------
+# Local Search
+# Dependencies: hexo-generator-searchdb
+# See: https://github.com/theme-next/hexo-generator-searchdb
+# ---------------------------------------------------------------------------------------
+local_search:
+  enable: false
+  preload: true # Preload the search data when the page loads
+
+# ---------------------------------------------------------------------------------------
+# Comment plugin
+# ---------------------------------------------------------------------------------------
+comment:
+  enable: false
+  use: waline # values: waline | gitalk | twikoo
+
+  # Waline
+  # See: https://waline.js.org/guide/get-started.html
+  waline:
+    serverUrl:  # Waline server url(vercel) example: https://example.example.com
+    lang: zh-CN # Waline language, default: zh-CN. See: https://waline.js.org/guide/client/i18n.html
+    dark: auto # Waline dark mode, default: auto. See: https://waline.js.org/reference/component.html#dark
+  
   # Gitalk
+  # See: https://github.com/gitalk/gitalk
   gitalk:
-    owner:  #Github 用户名,
-    repo:  #储存评论issue的github仓库名
-    admin:  #Github 用户名
-    clientID:  #`Github Application clientID`
-    clientSecret: #`Github Application clientSecret`
-  #livere
-  livere: # 前往 http://livere.com/ 申请账号
-    dataId: city #免费版本city
-    dataUid: #安装代码中 data-uid 后面数据
+    github_id: # GitHub repo owner
+    repository: # Repository name to store issues
+    client_id: # GitHub Application Client ID
+    client_secret: # GitHub Application Client Secret
 
+  # Twikoo
+  # See: https://github.com/imaegoo/twikoo
+  twikoo:
+    visitor: true
+    env_id: # Vercel or Tencent Cloud Function environment ID
+    region: # environment region. If select Guangzhou, fill in "ap-guangzhou". (optional)
 
-pagination:
-  prev: prev
-  next: next
+# ---------------------------------------------------------------------------------------
+# RSS
+# Dependencies: hexo-generator-feed
+# See: https://github.com/hexojs/hexo-generator-feed
+# ---------------------------------------------------------------------------------------
+rss:
+  enable: false
 
-############## 其他 ##############
-
-# 页脚
-footer: '<font size=3> Copyright © 2022 izoyoi team <br/> Powered by [Hexo](http://hexo.io/) <font>' # markdown语法
-
-#有分类时是否开启menu分类页和自定义名字
-menu_categories:
-  open: false
-  name: 分类
-
-#可自定义归档标签页名字
-archive_tab_name: download
-
-
-#图片懒加载
+# ---------------------------------------------------------------------------------------
+# Lazyload image
+# ---------------------------------------------------------------------------------------
 lazyload:
-  open: false #是否开启
+  enable: false
+
+# ---------------------------------------------------------------------------------------
+# CDN
+# ---------------------------------------------------------------------------------------
+cdn:
+  enable: false
+
+# ---------------------------------------------------------------------------------------
+# PJAX
+# ---------------------------------------------------------------------------------------
+pjax:
+  enable: true
+
+# ---------------------------------------------------------------------------------------
+# Fontawesome
+# ---------------------------------------------------------------------------------------
+fontawesome: # select fontawesome versions you want to use, in order to reduce the loading time, select as few as possible
+  thin: false # use fontawesome thin version or not
+  light: false # use fontawesome light version or not
+  duotone: false # use fontawesome duotone version or not
+
+# ---------------------------------------------------------------------------------------
+# Footer settings
+# ---------------------------------------------------------------------------------------
+footer:
+  runtime: false # show website running time or not
+  start_time: 2022/12/19 19:13:14 # the starting time of your website, format: yyyy/mm/dd hh:mm:ss
+  customize:  # customize footer message, can be html code
+  icp: # ICP record number of your website, Can be null
+
+# ---------------------------------------------------------------------------------------
+# Redefine Theme version (Please don't modify)
+# ---------------------------------------------------------------------------------------
+version: 0.4.3

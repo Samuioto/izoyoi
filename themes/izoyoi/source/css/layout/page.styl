@@ -1,0 +1,177 @@
+.page-container {
+  position relative
+  box-sizing border-box
+  width 100%
+  height auto
+  background var(--background-color)
+  //padding-left 230px
+
+
+  +redefine-tablet() {
+    padding-right 0 !important
+  }
+
+
+  .page-main-content {
+    padding-top $header-height
+    position relative
+    
+
+    .header-shrink & {
+      padding-top $header-shrink-height
+
+
+      +redefine-tablet() {
+        padding-top $header-shrink-height * 0.9
+      }
+
+      +redefine-mobile() {
+        padding-top $header-shrink-height * 0.8
+      }
+    }
+
+
+    +redefine-tablet() {
+      padding-top $header-height * 0.9
+    }
+
+
+    +redefine-mobile() {
+      padding-top $header-height * 0.8
+    }
+
+
+    .page-main-content-top {
+      position fixed
+      top 0
+      right 0
+      width 100%
+      height $header-height
+      z-index $z-index-5
+      box-sizing border-box
+      transition-t("transform, padding-left, height", "0, 0, 0", "0.3, 0.2, 0.2", "ease-out, linear, ease")
+
+      &.hide {
+        transform translateY(-105%)
+      }
+
+      .header-shrink & {
+        height $header-shrink-height
+
+        +redefine-tablet() {
+          height $header-shrink-height * 0.9
+        }
+
+        +redefine-mobile() {
+          height $header-shrink-height * 0.8
+        }
+      }
+
+
+      +redefine-tablet() {
+        height $header-height * 0.9
+        padding-left 0 !important
+      }
+
+
+      +redefine-mobile() {
+        height $header-height  * 0.8
+      }
+
+    }
+
+
+    .page-main-content-middle {
+      box-sizing border-box
+      width 100%
+      display flex
+      justify-content center
+      padding $component-spacing-value 0
+
+      +redefine-tablet() {
+        padding $component-spacing-value * 0.8 0
+        box-shadow none !important
+
+        :hover {
+          box-shadow none !important
+        }
+      }
+
+      +redefine-mobile() {
+        padding $component-spacing-value * 0.6 0
+        box-shadow none !important
+
+        :hover {
+          box-shadow none !important
+        }
+      }
+
+      .main-content {
+        position relative
+        box-sizing border-box
+        width $main-content-width
+        max-width $content-max-width 
+        height 100%
+        transition-t("max-width, width", "0, 0", "0.2, 0.2", "ease-in, ease-out")
+
+        +redefine-tablet() {
+          width $main-content-width-tablet
+        }
+
+        +redefine-mobile() {
+          width $main-content-width-mobile
+        }
+
+        &.has-toc{
+          max-width $has-toc-content-max-width !important
+        }
+      }
+
+      .page-main-content-bottom {
+        width 100%
+      }
+    }
+  }
+
+
+  .post-tools {
+    position fixed
+    top $header-height + $component-spacing-value
+    right $component-spacing-value
+    transition-t("top", "0", "0.2", "ease")
+
+    .header-shrink & {
+      top $header-shrink-height + $component-spacing-value
+
+      +redefine-tablet() {
+        top $header-shrink-height * 0.9 + $component-spacing-value
+      }
+
+      +redefine-mobile() {
+        top $header-shrink-height * 0.8 + $component-spacing-value
+      }
+    }
+
+
+    +redefine-tablet() {
+      top $header-height * 0.9 + $component-spacing-value
+      right 10px
+      transform scale(0.82)
+      transform-origin right top
+    }
+
+
+    +redefine-mobile() {
+      top $header-height * 0.8 + $component-spacing-value
+      right 5px
+      transform scale(0.72)
+    }
+  }
+
+
+  .right-bottom-side-tools {
+    position fixed
+    bottom 5%
+    right 0
+  }
+}

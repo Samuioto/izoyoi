@@ -1,18 +1,55 @@
-<div class="footer-outer animate__animated  animate__fadeInUp">
-    <div class="footer-inner">
-    <div class="footer-text">
-    <%- markdown(theme.footer) %>
-    </div>
-    <div class="footer-contact">
-    <ul class="footer-ul">
-        <% for(var y in theme.contact){ %>
-        <li class="footer-li">
-            <a href="<%=theme.contact[y][0]%>" target="_blank">
-                <i class="<%=theme.contact[y][1]%>"></i>
-            </a>
-        </li>
+<footer class="footer">
+    <div class="info-container">
+        <% if (theme.website_count.busuanzi_count.enable === true) { %>
+            <script async <%= theme.pjax.enable === true ? 'data-pjax' : '' %> src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                <% if (theme.website_count.busuanzi_count.site_uv) { %>
+                    <span id="busuanzi_container_site_uv">
+                        <%- __('site_uv') %>&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                    </span>
+                <% } %>
+                <% if (theme.website_count.busuanzi_count.site_pv) { %>
+                    <span id="busuanzi_container_site_pv">
+                        <%- __('site_pv') %>&nbsp;<span id="busuanzi_value_site_pv"></span>
+                    </span>
+                <% } %>
+            </div>
         <% } %>
-    </ul>
-    </div>
-    </div>
-</div>
+        <div class="theme-info info-item">
+            <%- __('powered_by', '<a target="_blank" href="https://hexo.io">Hexo</a>') %>&nbsp;|&nbsp;<%- __('theme') %>&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine</a> &nbsp;|&nbsp; <a>Copyright © izoyoi network<a/>
+        </div>
+        <% if (theme.footer.hasOwnProperty('icp') && theme.footer.icp) { %>
+            <div class="icp-info info-item"><a target="_blank" rel="nofollow" href="https://beian.miit.gov.cn"><%= theme.footer.icp %></a></div>
+        <% } %>
+        <% if (theme.footer.hasOwnProperty('upyun') && theme.footer.upyun) { %>
+            <div class="icp-info info-item"><a target="_blank" rel="nofollow" href="<%= theme.footer.upyun %>">本网站由
+                <img src="/images/upyun.png" alt="upyun" srcset="" height="24" style="position:relative; top:6px">
+                提供CDN加速/云存储服务</a></div>
+        <% } %>
+        <script async <%= theme.pjax.enable === true ? 'data-pjax' : '' %> defer>
+            function odometer_init(){
+                    let el = document.getElementsByClassName('odometer');
+                    for (i = 0; i < el.length; i++) {
+                        od = new Odometer({
+                            el: el[i],
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    }
+            }
+            odometer_init();
+        </script>
+        <div id="start_time_div" style="display:none">
+            <%= theme.footer.start_time %>
+        </div>
+        <% if (theme.footer.runtime === true) {%>
+            <div>
+                <%= __('runtime') %> <span class="odometer" id="runtime_days" ></span> <%= __('days') %> <span class="odometer" id="runtime_hours"></span> <%= __('hours') %> <span class="odometer" id="runtime_minutes"></span> <%= __('minutes') %> <span class="odometer" id="runtime_seconds"></span> <%= __('seconds') %>
+            </div>
+        <% } %>
+        <% if (theme.footer.hasOwnProperty('customize') && theme.footer.customize) { %>
+            <div class="customize-info info-item"><%- theme.footer.customize %></div>
+        <% } %>
+        
+    </div>  
+</footer>

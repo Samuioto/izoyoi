@@ -1,39 +1,51 @@
-<%
-var title = titlecase(page.title);
-if(page.title_name) title=titlecase(page.title_name)
-if (is_archive()){
-  title = theme.archive_tab_name ;
-} else if (is_category()){
-  title =   page.category;
-} else if (is_tag()){
-  title =   page.tag;
-}
-%>
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><% if (title){ %>  <%= title %> | <% } %>   <%= theme.site_name%></title>
-  <meta name="description" content="<% if(page.description ) { %><%=page.description%><% } else {%><%=theme.site_description%><%}%>">
-  <!-- 标签页图标 -->
-  <%if(theme.icon!=undefined){%>
-  <link rel="shortcut icon" href="<%-theme.icon%>" type="image/x-icon">
-  <%}%>
- <!--  <style>  html {  -webkit-filter: grayscale(100%);  -moz-filter: grayscale(100%);  -ms-filter: grayscale(100%);  -o-filter: grayscale(100%);   filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);     _filter:none;  } </style> -->
-  <!-- 图标库 -->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-  <!-- 动画库 -->
-  <% if(theme.style.animation.open ==true) {%>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/css/animate.css"/>
-  <% } %>
-  <!-- css文件 -->
-  <%- css('css/white') %>
-  <!-- 代码高亮 -->
-  <% if (config.highlight.enable != true) { %>
-    <% if (theme.plugins.highlightjs && theme.plugins.highlightjs.css) { %>
-      <%- css(theme.plugins.highlightjs.css) %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="<%= page.keywords || config.keywords || 'Hexo Theme Redefine' %>">
+    <meta name="description" content="<%= page.description || config.description || 'Hexo Theme Redefine' %>">
+    <meta name="author" content="<%= theme.base_info.author || config.author || 'Redefine Team' %>">
+    <%
+    let title = page.title;
+    if (is_archive()) {
+        title = __('archive');
+        if (is_month()) {
+            title += ': ' + page.year + '/' + page.month;
+        } else if (is_year()) {
+            title += ': ' + page.year;
+        }
+    } else if (is_category()) {
+        title = __('category') + ': ' + page.category;
+    } else if (is_tag()) {
+        title = __('tag') + ': ' + page.tag;
+    } else {
+        title = __(page.title);
+    }
+    %>
+    <title>
+        <% if (title) { %>
+            <%= title %> |
+        <% } %>
+        <%= theme.base_info.title || config.title || 'Redefine Theme' %>
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://evan.beee.top" crossorigin>
+    <%- css('css/style') %>
+    <%- favicon_tag(theme.style.favicon) %>
+    <%- __css('css/fontawesome.min.css') %>
+    <%- __css('css/brands.min.css') %>
+    <%- __css('css/solid.min.css') %>
+    <%- __css('css/regular.min.css') %>
+    <% if (theme.fontawesome.thin == true) { %>
+        <%- __css('css/thin.min.css') %>
     <% } %>
-  <% } %>
+    <% if (theme.fontawesome.light == true) { %>
+        <%- __css('css/light.min.css') %>
+    <% } %>
+    <% if (theme.fontawesome.duotone == true) { %>
+        <%- __css('css/duotone.min.css') %>
+    <% } %>
+    <%- __css('css/css2.css') %>
+    <%- export_config() %>
 </head>
+

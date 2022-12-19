@@ -1,77 +1,103 @@
-<%
-const categoriesList = list_categories({ show_count: false });
-%>
-<div class="menu-outer">
-    <div class="menu-inner">
-      <div class="menu-site-name  <%if(theme.style.animation.open==true){%>animate__animated  animate__fadeInUp<% } %>">
-        <a href="<%=url_for()%>">
-          <%=theme.site_name%>
-        </a>
-        
-      </div>
-      <div class="menu-group">
-        <ul class="menu-ul">
-        <% Object.keys(theme.menu).forEach(key => { %>
-          <a href="<%=url_for(theme.menu[key])%>" class="nav-link">
-            <li class="menu-li  <%if(theme.style.animation.open==true){%>animate__animated  animate__fadeInUp<% } %>">
-              <%=key%>
-            </li>
-          </a>
-        <% }); %>
-        <% if(site.categories.length>0 && theme.menu_categories.open==true) { %>
-          <li class="menu-li <%if(theme.style.animation.open==true){%>animate__animated  animate__fadeInUp<% } %>" id="sort">
-             <%= theme.menu_categories.name%>
-             <div class="categories-outer " id="sort-div">
-               <%-categoriesList%>
-             </div>
-          </li>
-        <% } %>
-        <% if(theme.search.open===true) { %>
-        <a href="<%= url_for(theme.search.page) %>">
-          <li class="menu-li  <%if(theme.style.animation.open==true){%>animate__animated  animate__fadeInUp<% } %>">
-            <i class="ri-search-line"></i>
-          </li>
-        </a>
-        <% } %>
-          <li class="menu-li <%if(theme.style.animation.open==true){%>animate__animated  animate__fadeInUp<% } %>" id="mobile-menu">
-            <i class="ri-menu-line"></i>
-          </li>
-        
+<header class="header-wrapper">
+    
+    <div class="header-content<%- (theme.style.first_screen.enable === true && is_home() && !page.prev) ? ' has-first-screen' : '' %>">
+        <div class="left">
+            <% if (theme.base_info.hasOwnProperty('logo_img') && theme.base_info.logo_img) { %>
+                <a class="logo-image" href="/">
+                    <%- image_tag(theme.base_info.logo_img) %>
+                </a>
+            <% } %>
+            <a class="logo-title" href="/">
+                <%= theme.base_info.title || config.title || 'Redefine Theme' %>
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="pc">
+                <ul class="menu-list">
+                    <% for (let i in theme.menu) { %>
+                        <li class="menu-item">
+                            <!-- Menu -->
+                            <a class="<% if (theme.menu[i].submenus) { %>has-dropdown" <% } else {%><%- isInHomePaging(page.path, theme.menu[i].path) ? 'active' : is_current(theme.menu[i].path) ? 'active' : '' %>" <% } %>
+                                href="<% if (theme.menu[i].submenus) { %>javascript:void(0);"<% } else {%><%- url_for(theme.menu[i].path) %>" <% } %>>
+                                <% if (theme.menu[i].submenus) { %>
+                                    <% if (theme.menu[i].icon) { %>
+                                        <i class="<%- theme.menu[i].icon %>"></i>
+                                    <% } %>
+                                    <%= __(i.toLowerCase()).toUpperCase() %>&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                                <% } else {%>
+                                    <% if (theme.menu[i].icon) { %>
+                                        <i class="<%- theme.menu[i].icon %>"></i>
+                                    <% } %>
+                                    <%= __(i.toLowerCase()).toUpperCase() %>
+                                <% } %>
+                            </a>
+                            <!-- Submenu -->
+                            <% if (theme.menu[i].submenus) { %>
+                                <ul class="sub-menu">
+                                  <% for (var submenu in theme.menu[i].submenus){ %>
+                                    <li>
+                                      <a href="<%- url_for(theme.menu[i].submenus[submenu]) %>"><%= __(submenu.toLowerCase()).toUpperCase() %>
+                                      </a>
+                                    </li>
+                                  <% } %>
+                                </ul>
+                            <% } %>
+                        </li>
+                    <% } %>
+                    <% if (theme.local_search.enable === true) { %>
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    <% } %>
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                <% if (theme.local_search.enable === true) { %>
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <% } %>
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            <% for (let i in theme.menu) { %>
+                <li class="drawer-menu-item flex-center">
+                    <a class="<% if (theme.menu[i].submenus) { %>has-dropdown" <% } else {%><%- isInHomePaging(page.path, theme.menu[i].path) ? 'active' : is_current(theme.menu[i].path) ? 'active' : '' %>" <% } %>
+                       href="<% if (theme.menu[i].submenus) { %>javascript:void(0);"<% } else {%><%- url_for(theme.menu[i].path) %>" <% } %>>
+                        <% if (theme.menu[i].submenus) { %>
+                            <% if (theme.menu[i].icon) { %>
+                                <i class="<%- theme.menu[i].icon %>"></i>
+                            <% } %>
+                            <%= __(i.toLowerCase()).toUpperCase() %>&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                        <% } else {%> 
+                            <% if (theme.menu[i].icon) { %>
+                                <i class="<%- theme.menu[i].icon %>"></i>
+                            <% } %>
+                            <%= __(i.toLowerCase()).toUpperCase() %>
+                        <% } %>
+                    </a>
+                </li>
+                <!-- Submenu -->
+                <% if (theme.menu[i].submenus) { %>          
+                    <% for (var submenu in theme.menu[i].submenus){ %>
+                        <li class="dropdown-item flex-center">
+                            <a class="dropdown-item" href="<%- url_for(theme.menu[i].submenus[submenu]) %>"><%= __(submenu.toLowerCase()).toUpperCase() %></a>
+                        </li>
+                    <% } %>
+                <% } %>
+            <% } %>
         </ul>
-
-      </div>
-
-    </div>
-</div>
-<div id="mobile-main" class="<%if(theme.style.animation.open==true){%>animate__animated  animate__fadeIn<% } %>">
-  <div class="mobile-menu-inner">
-    <div class="mobile-menu-site-name <%if(theme.style.animation.open==true){%>animate__animated  animate__fadeInUp<% } %>">
-      <a href="<%=url_for()%>">
-        <%=theme.site_name%>
-      </a>
-    </div>
-    <div class="mobile-menu-group" id="mobile-close">
-      <i class="ri-close-line"></i>
     </div>
 
-  </div>
+    <div class="window-mask"></div>
 
-  <div class="mobile-menu-div">
-  <% Object.keys(theme.menu).forEach(key => { %>
-    <a href="<%=url_for(theme.menu[key])%>" class="mobile-nav-link">
-      <div class="mobile-menu-child <%if(theme.style.animation.open==true){%>animate__animated  animate__fadeInUp<% } %>">
-        <span><%=key%></span>
-      </div>
-    </a>
-  <% }); %>
-  <% if(theme.search.open===true) { %>
-    <a href="<%= url_for(theme.search.page) %>">  
-      <div class="mobile-menu-child  <%if(theme.style.animation.open==true){%>animate__animated  animate__fadeInUp<% } %>">
-        <i class="ri-search-line"></i>
-      </div>
-    </a>
-    <% } %>
-  </div>
+</header>
 
-
-</div>

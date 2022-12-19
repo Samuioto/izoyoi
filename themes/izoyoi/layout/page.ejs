@@ -1,59 +1,73 @@
+<%- partial('_partial/progress-bar') %>
+<main class="page-container">
 
-<article class="post-inner">
-  <div class="post-content-outer">
-    <div class="post-intro">
-      <div class="post-title animate__animated  animate__fadeInUp"><%=page.title%></div>
-      <%if(page.cover){%>
-        <div class="post-cover"><span class="lazyload-img-span"><img data-src="<%=page.cover%>" class="post-cover-img"></span></div>
-      <%}%>
-    </div>
-    <div class="post-content-inner">
-      <div class="post-content-inner-space">
-
-      </div>
-      <div class="post-content-main animate__animated  animate__fadeInUp">
-        <!-- top型目录 -->
-        <%if(page.toc!==false && theme.toc.open === true && toc(page.content).length!==0 && theme.toc.side !== true){%>
-          <%- toc(page.content,{class:"toc-top",list_number:false,max_depth: theme.toc.max,min_depth: theme.toc.min}) %>
-        <%}%>
-        <%-page.content%>
-      </div>
-      <div class="post-content-inner-space">
-        <%if(page.toc!==false && theme.toc.open === true && toc(page.content).length!==0 && theme.toc.side === true){%>
-          <div class="space-toc-main animate__animated  animate__fadeInUp">
-            <%- toc(page.content,{class:"space-toc",list_number:false,max_depth: theme.toc.max,min_depth: theme.toc.min}) %>
-           </div>
-        <%}%>
-      </div>
-   </div>
-    <!-- 评论 -->
-    <% if (page.comments !== false && theme.comments.open === true){ %>
-    <div class="bottom-comments-outer">
-      <div class="bottom-comments-inner">
-        <!-- valine -->
-        <% if ( theme.comments.system ==='valine' && theme.comments.valine && theme.comments.valine.appid && theme.comments.valine.appkey){ %>
-          <section id="comments" class="comments" style="margin-top: 150px;">
-            <style>
-              .comments{background:#fff}
-              @media screen and (max-width:900px){.comments{margin:auto;padding:10px;background:#fff}}
-            </style>
-            <%- partial('post/comment-valine', {
-              key: page.slug,
-              title: page.title,
-              url: config.url+url_for(page.path)
-              }) %>
-          </section>
-        <% } %>
-        <!-- Gitalk -->
-        <% if ( theme.comments.system ==='gitalk' && theme.comments.gitalk && theme.comments.gitalk.clientID && theme.comments.gitalk.clientSecret ){ %>
-          <%- partial('post/comment-gitalk') %>
-        <% } %>
-        <!-- livere -->
-        <% if ( theme.comments.system ==='livere' && theme.comments.livere && theme.comments.livere.dataId && theme.comments.livere.dataUid ){ %>
-          <%- partial('post/comment-livere') %>
-        <% } %>
-        </div>
-      </div>
+    <% if (theme.style.first_screen.enable === true && is_home() && !page.prev) { %>
+        <%- partial('_partial/first-screen') %>
     <% } %>
-  </div>
-</article>
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <%- partial('_partial/header') %>
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                <% if (is_home()) { %>
+                    <%- partial('home-content') %>
+
+                <% } else if (is_archive()) { %>
+                    <%- partial('archive-content') %>
+
+                <% } else if (is_post()) { %>
+                    <%- partial('article-content') %>
+
+                <% } else if (is_category()) { %>
+                    <%- partial('category-content') %>
+
+                <% } else if (is_tag()) { %>
+                    <%- partial('tag-content') %>
+
+                <% } else if (page.title === 'category' || page.title === 'categories') { %>
+                    <%- partial('category-list') %>
+
+                <% } else if (page.title === 'tag' || page.title === 'tags') { %>
+                    <%- partial('_partial/tagcloud') %>
+
+                <% } else { %>
+                    <%- partial('_partial/page-template') %>
+
+                <% } %>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <%- partial('_partial/footer') %>
+        </div>
+    </div>
+
+    <% if (is_post()) { %>
+        <div class="post-tools">
+            <%- partial('_partial/post-tools') %>
+        </div>
+    <% } %>
+
+    <div class="right-bottom-side-tools">
+        <%- partial('_partial/side-tools') %>
+    </div>
+
+    <%- partial('_partial/image-viewer') %>
+
+    <% if (theme.local_search.enable) { %>
+        <%- partial('_partial/local-search') %>
+    <% } %>
+
+</main>
+
+

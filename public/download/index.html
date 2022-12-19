@@ -1,159 +1,251 @@
-
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>  下载 |      夜·izoyoi</title>
-  <meta name="description" content="一个简单的音乐游戏下载站">
-  <!-- 标签页图标 -->
-  
- <!--  <style>  html {  -webkit-filter: grayscale(100%);  -moz-filter: grayscale(100%);  -ms-filter: grayscale(100%);  -o-filter: grayscale(100%);   filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);     _filter:none;  } </style> -->
-  <!-- 图标库 -->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-  <!-- 动画库 -->
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/css/animate.css"/>
-  
-  <!-- css文件 -->
-  
-<link rel="stylesheet" href="/css/white.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    <meta name="description" content="一个简单的音乐游戏下载站">
+    <meta name="author" content="izoyoi">
+    
+    <title>
+        
+        夜·izoyoi
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://evan.beee.top" crossorigin>
+    
+<link rel="stylesheet" href="/css/style.css">
 
-  <!-- 代码高亮 -->
-  
-<meta name="generator" content="Hexo 5.4.2"></head>
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    
+<link rel="stylesheet" href="/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/css/brands.min.css">
+
+    
+<link rel="stylesheet" href="/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/css/regular.min.css">
+
+    
+    
+    
+    
+<link rel="stylesheet" href="/css/css2.css">
+
+    <script id="hexo-configurations">
+    let REDEFINE = window.REDEFINE || {};
+    REDEFINE.hexo_config = {"hostname":"izoyoi.icu","root":"/","language":"zh-Hans","path":"search.xml"};
+    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/avatar.svg","favicon":"/images/favicon.ico","article_img_align":"left","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"/images/bgl.png","dark":"/images/bgd.png"},"title_color":{"light":"#000000","dark":"#d1d1b6"},"description":"Paradigm:Reboot安卓正式版更新","des2":"点击前往下载"},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":true},"code_copy":{"enable":false},"pjax":{"enable":true},"lazyload":{"enable":false},"version":"0.4.3"};
+    REDEFINE.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+  </script>
+<meta name="generator" content="Hexo 6.3.0"></head>
 
 
 <body>
-
-<div class="menu-outer">
-    <div class="menu-inner">
-      <div class="menu-site-name  animate__animated  animate__fadeInUp">
-        <a href="/">
-            夜·izoyoi
-        </a>
-        
-      </div>
-      <div class="menu-group">
-        <ul class="menu-ul">
-        
-          <a href="/" class="nav-link">
-            <li class="menu-li  animate__animated  animate__fadeInUp">
-              主页
-            </li>
-          </a>
-        
-          <a href="/download" class="nav-link">
-            <li class="menu-li  animate__animated  animate__fadeInUp">
-              下载
-            </li>
-          </a>
-        
-          <a href="/about" class="nav-link">
-            <li class="menu-li  animate__animated  animate__fadeInUp">
-              关于和声明
-            </li>
-          </a>
-        
-          <a href="/log" class="nav-link">
-            <li class="menu-li  animate__animated  animate__fadeInUp">
-              更新日志
-            </li>
-          </a>
-        
-        
-        
-          <li class="menu-li animate__animated  animate__fadeInUp" id="mobile-menu">
-            <i class="ri-menu-line"></i>
-          </li>
-        
-        </ul>
-
-      </div>
-
-    </div>
-</div>
-<div id="mobile-main" class="animate__animated  animate__fadeIn">
-  <div class="mobile-menu-inner">
-    <div class="mobile-menu-site-name animate__animated  animate__fadeInUp">
-      <a href="/">
-          夜·izoyoi
-      </a>
-    </div>
-    <div class="mobile-menu-group" id="mobile-close">
-      <i class="ri-close-line"></i>
-    </div>
-
-  </div>
-
-  <div class="mobile-menu-div">
-  
-    <a href="/" class="mobile-nav-link">
-      <div class="mobile-menu-child animate__animated  animate__fadeInUp">
-        <span>主页</span>
-      </div>
-    </a>
-  
-    <a href="/download" class="mobile-nav-link">
-      <div class="mobile-menu-child animate__animated  animate__fadeInUp">
-        <span>下载</span>
-      </div>
-    </a>
-  
-    <a href="/about" class="mobile-nav-link">
-      <div class="mobile-menu-child animate__animated  animate__fadeInUp">
-        <span>关于和声明</span>
-      </div>
-    </a>
-  
-    <a href="/log" class="mobile-nav-link">
-      <div class="mobile-menu-child animate__animated  animate__fadeInUp">
-        <span>更新日志</span>
-      </div>
-    </a>
-  
-  
-  </div>
-
-
-</div>
-
-<div class="body-outer">
-  <div class="body-inner">
+<div class="progress-bar-container">
     
-<article class="post-inner">
-  <div class="post-content-outer">
-    <div class="post-intro">
-      <div class="post-title animate__animated  animate__fadeInUp">下载</div>
-      
-    </div>
-    <div class="post-content-inner">
-      <div class="post-content-inner-space">
+        <span class="scroll-progress-bar"></span>
+    
 
-      </div>
-      <div class="post-content-main animate__animated  animate__fadeInUp">
-        <!-- top型目录 -->
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+    
+    <div class="header-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                夜·izoyoi
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <!-- Menu -->
+                            <a class="" 
+                                href="/" >
+                                
+                                    
+                                    主页
+                                
+                            </a>
+                            <!-- Submenu -->
+                            
+                        </li>
+                    
+                        <li class="menu-item">
+                            <!-- Menu -->
+                            <a class="active" 
+                                href="/download" >
+                                
+                                    
+                                    下载
+                                
+                            </a>
+                            <!-- Submenu -->
+                            
+                        </li>
+                    
+                        <li class="menu-item">
+                            <!-- Menu -->
+                            <a class="" 
+                                href="/about" >
+                                
+                                    
+                                    关于
+                                
+                            </a>
+                            <!-- Submenu -->
+                            
+                        </li>
+                    
+                        <li class="menu-item">
+                            <!-- Menu -->
+                            <a class="" 
+                                href="/log" >
+                                
+                                    
+                                    更新日志
+                                
+                            </a>
+                            <!-- Submenu -->
+                            
+                        </li>
+                    
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class="" 
+                       href="/" >
+                         
+                            
+                            主页
+                        
+                    </a>
+                </li>
+                <!-- Submenu -->
+                
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class="active" 
+                       href="/download" >
+                         
+                            
+                            下载
+                        
+                    </a>
+                </li>
+                <!-- Submenu -->
+                
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class="" 
+                       href="/about" >
+                         
+                            
+                            关于
+                        
+                    </a>
+                </li>
+                <!-- Submenu -->
+                
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class="" 
+                       href="/log" >
+                         
+                            
+                            更新日志
+                        
+                    </a>
+                </li>
+                <!-- Submenu -->
+                
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="page-template-container">
         
-        <details>
+		
+        
+        <div class="page-template-content markdown-body">
+            
+                <details>
 <summary>展开快速索引</summary>
+
+<!-- toc -->
+
 <ul>
 <li><a href="#%E6%99%AE%E9%80%9A%E7%B1%BB%E5%88%AB">普通类别</a><ul>
 <li><a href="#arcaea">Arcaea</a></li>
 <li><a href="#beatmania-iidx-ultimate-mobile">beatmania IIDX ULTIMATE MOBILE</a></li>
+<li><a href="#berry-melody-%E6%B5%86%E6%9E%9C%E6%97%8B%E5%BE%8B">Berry Melody 浆果旋律</a></li>
 <li><a href="#chainbeet">ChainBeeT</a></li>
 <li><a href="#dancerail3">Dancerail3</a></li>
-<li><a href="#deemo">Deemo</a></li>
+<li><a href="#deemo-ii">Deemo II</a></li>
 <li><a href="#dynamix">Dynamix</a></li>
+<li><a href="#hexa-hysteria-%E6%AD%87%E6%96%AF%E7%89%B9%E9%87%8C%E7%97%87">Hexa Hysteria 歇斯特里症</a></li>
+<li><a href="#iter">Iter</a></li>
 <li><a href="#kalpa">KALPA</a></li>
 <li><a href="#lanota">Lanota</a></li>
 <li><a href="#%E5%85%B0%E7%A9%BAvoez">兰空VOEZ</a></li>
-<li><a href="#liminality%E9%98%88%E9%99%90">Liminality阈限</a></li>
 <li><a href="#orzmic">Orzmic</a></li>
 <li><a href="#overrapid">OverRapid</a></li>
+<li><a href="#paradigmreboot-%E8%8C%83%E5%BC%8F%E8%B5%B7%E6%BA%90">Paradigm:reboot 范式起源</a></li>
+<li><a href="#projectmuse-%E7%A9%86%E6%96%AF%E8%AE%A1%E5%88%92">Project.Muse 穆斯计划</a></li>
 <li><a href="#phigros">Phigros</a></li>
-<li><a href="#ravon">RAVON</a></li>
+<li><a href="#rizline">Rizline</a></li>
 <li><a href="#takumi3">Takumi³</a></li>
 <li><a href="#twirdora">Twirdora</a></li>
 <li><a href="#%E9%98%B3%E6%98%A5%E7%99%BD%E9%9B%AAlyrica">阳春白雪Lyrica</a></li>
@@ -161,141 +253,130 @@
 </li>
 <li><a href="#%E7%A4%BE%E5%8C%BA%E9%A9%B1%E5%8A%A8">社区驱动</a><ul>
 <li><a href="#cytoid">Cytoid</a></li>
+<li><a href="#layesta">Layesta</a></li>
 <li><a href="#malody">Malody</a></li>
 <li><a href="#sonolus">Sonolus</a></li>
 </ul>
 </li>
-<li><a href="#%E5%8D%A1%E7%89%8C%E5%85%BB%E6%88%90">卡牌/养成</a><ul>
+<li><a href="#%E5%8D%A1%E7%89%8C%E5%85%BB%E6%88%90">卡牌&#x2F;养成</a><ul>
 <li><a href="#%E6%A2%A6%E6%83%B3%E5%8D%8F%E5%A5%8F%E6%9B%B2%E5%B0%91%E5%A5%B3%E4%B9%90%E5%9B%A2%E6%B4%BE%E5%AF%B9">梦想协奏曲！少女乐团派对！</a></li>
 <li><a href="#d4dj-groove-mix">D4DJ Groove MIX</a></li>
 <li><a href="#%E4%B8%96%E7%95%8C%E8%AE%A1%E7%94%BB-%E7%BC%A4%E7%BA%B7%E8%88%9E%E5%8F%B0-feat%E5%88%9D%E9%9F%B3%E6%9C%AA%E6%9D%A5">世界计画 缤纷舞台！ feat.初音未来</a></li>
 <li><a href="#love-live-%E5%AD%A6%E5%9B%AD%E5%81%B6%E5%83%8F%E7%A5%AD">Love Live! 学园偶像祭</a></li>
+<li><a href="#%E5%81%B6%E5%83%8F%E6%A2%A6%E5%B9%BB%E7%A5%AD-%E3%81%82%E3%82%93%E3%82%B9%E3%82%BF">偶像梦幻祭 あんスタ！！</a></li>
 </ul>
 </li>
-<li><a href="#%E6%A1%8C%E9%9D%A2%E7%AB%AF">桌面端</a><ul>
-<li><a href="#osu">OSU!</a></li>
-<li><a href="#malody-1">Malody</a></li>
+<li><a href="#%E5%81%9C%E6%9B%B4%E6%B8%B8%E6%88%8F%E8%B6%85%E8%BF%87%E4%B8%80%E5%B9%B4%E6%97%A0%E6%B4%BB%E8%B7%83">停更游戏（超过一年无活跃）</a></li>
 </ul>
-</li>
-<li><a href="#%E4%B8%8D%E5%96%98%E6%B0%94%E7%9A%84%E9%9B%BE">不喘气的</a></li>
-</ul>
+<!-- tocstop -->
+
 </details>
 
-<hr>
+
+
+<p>目前lowlight.net和616.sb均已重新开放</p>
 <p>本站下载服务为izoyoi提供，与游戏官方无关</p>
 <p>如需分享请分享源站地址414.icu，请勿直接分享下载链接</p>
-<p>xapk,apks可以使用<a target="_blank" rel="noopener" href="https://414.icu/SAI.apk">SAI</a>安装，MIUI安装失败可参考<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1jR4y157WL/?vd_source=e6495137190dde4b9795a18285ee0d39">查看</a></p>
-<hr>
-<center>
-
-<h1><span id="普通类别">普通类别</span></h1><p><img src="https://414.icu/img/arc.png"> </p>
-<h3><span id="arcaea">Arcaea</span></h3><p>有关于国内版（c版）和play版的区别请查看 <a target="_blank" rel="noopener" href="https://414.icu/arcaeaver">arcaea版本说明</a></p>
+<p>xapk,apks可以使用<a class="link" target="_blank" rel="noopener" href="https://414.icu/SAI.apk">SAI<i class="fa-solid fa-up-right-from-square"></i></a>安装，MIUI安装失败可参考<a class="link" target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1jR4y157WL/?vd_source=e6495137190dde4b9795a18285ee0d39">BV1jR4y157WL<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<h2><span id="普通类别">普通类别</span></h2><p> <img src="https://414.icu/images/arc.png"></p>
+<h3><span id="arcaea">Arcaea</span></h3><p>有关于国内版（c版）和play版的区别请查看 <a class="link" target="_blank" rel="noopener" href="https://414.icu/arcaeaver">arcaea版本说明<i class="fa-solid fa-up-right-from-square"></i></a></p>
 <details>
 <summary>官网版本（4.1.4）</summary>
 
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/arcaea_4.1.4c.apk">主要节点</a></p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.art/arcaea_4.1.4c.apk">备用节点</a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/arcaea_4.1.4c.apk">主要节点<i class="fa-solid fa-up-right-from-square"></i></a></p>
 </details>
 
 <details>
 <summary>Play版本（4.1.4）</summary>
 
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/arcaea_4.1.4.apk">主要节点</a></p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.art/arcaea_4.1.4.apk">备用节点</a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/arcaea_4.1.4.apk">主要节点<i class="fa-solid fa-up-right-from-square"></i></a></p>
 </details>
 
 <details>
 <summary>其他版本</summary>
 
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/arcaea_3.12.6c.apk">2022愚人节（3.12.6）</a></p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/arcaea_3.5.3c.apk">2021愚人节（3.5.3）</a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/arcaea_3.12.6c.apk">2022愚人节（3.12.6）<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/arcaea_3.5.3c.apk">2021愚人节（3.5.3）<i class="fa-solid fa-up-right-from-square"></i></a></p>
 </details>
 
-<hr>
-<p><img src="https://414.icu/img/iidx.png"> </p>
-<h3><span id="beatmania-iidx-ultimate-mobile">beatmania IIDX ULTIMATE MOBILE</span></h3><p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/iidxm_1.17.1.apk">1.17.1</a></p>
-<hr>
-<p><img src="https://414.icu/img/cb.png"> </p>
-<h3><span id="chainbeet">ChainBeeT</span></h3><p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/ChainBeeT_4.8.2.apk">4.8.2</a></p>
-<hr>
-<p><img src="https://414.icu/img/dr.png"> </p>
-<h3><span id="dancerail3">Dancerail3</span></h3><p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/dr3_1.55.xapk">1.55</a></p>
-<hr>
-<p><img src="https://414.icu/img/deemo.png"> </p>
-<h3><span id="deemo">Deemo</span></h3><p>方便管理就把一代二代放一块了</p>
-<details>
-<summary>最新版本</summary>
 
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Deemo_5.0.4.xapk">Deemo 5.0.4</a></p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/DEEMOII_2.1.2.xapk">Deemo II 2.1.2</a></p>
-</details>
 
-<hr>
-<p><img src="https://414.icu/img/dy.png"> </p>
-<h3><span id="dynamix">Dynamix</span></h3><p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Dynamix_3.16.08.xapk">3.16.08</a></p>
-<hr>
-<p><img src="https://414.icu/img/kalpa.png"> </p>
-<h3><span id="kalpa">KALPA</span></h3><p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/KALPA_2.0.17.xapk">2.0.17</a></p>
-<hr>
-<p><img src="https://414.icu/img/lanota.png"> </p>
+<p> <img src="https://414.icu/images/iidx.png"> </p>
+<h3><span id="beatmania-iidx-ultimate-mobile">beatmania IIDX ULTIMATE MOBILE</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/iidxm_1.17.1.apk">1.17.1<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/berrym.png"> </p>
+<h3><span id="berry-melody-浆果旋律">Berry Melody 浆果旋律</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/BerryMelody_1.1.0.apk">1.1.0<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/cb.png"> </p>
+<h3><span id="chainbeet">ChainBeeT</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/ChainBeeT_4.9.0.apk">4.9.0<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/dr.png"> </p>
+<h3><span id="dancerail3">Dancerail3</span></h3><p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/dr3_1.55.xapk">1.55<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/deemo2.png"> </p>
+<h3><span id="deemo-ii">Deemo II</span></h3><p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/DEEMOII_2.1.2.xapk">2.1.2<i class="fa-solid fa-up-right-from-square"></i></a></p>
+
+
+
+
+<p> <img src="https://414.icu/images/dy.png"> </p>
+<h3><span id="dynamix">Dynamix</span></h3><p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Dynamix_3.16.08.xapk">3.16.08<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/hexah.png"> </p>
+<h3><span id="hexa-hysteria-歇斯特里症">Hexa Hysteria 歇斯特里症</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/HexaHysteria_1.21.30.apk">1.21.30<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/iter.png"> </p>
+<h3><span id="iter">Iter</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/iter_1.2.1.apk">1.2.1<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/kalpa.png"> </p>
+<h3><span id="kalpa">KALPA</span></h3><p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/KALPA_2.0.17.xapk">2.0.17<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/lanota.png"> </p>
 <h3><span id="lanota">Lanota</span></h3><p>自2.7.0后，游戏的音乐数据需要在线下载，您可能需要采用特殊方法</p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Lanota_2.19.1.apk">2.19.1</a></p>
-<hr>
-<p><img src="https://414.icu/img/voez.png"> </p>
-<h3><span id="兰空voez">兰空VOEZ</span></h3><p>典藏版与play版数据不互通</p>
-<p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/VOEZCN.apk">典藏版</a></p>
-<p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/VOEZ_2.2.1.xapk">Play 2.2.1</a></p>
-<hr>
-<p><img src="https://414.icu/img/li.png"> </p>
-<h3><span id="liminality阈限">Liminality阈限</span></h3><p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/Liminality_1.8.0.apk">1.8.0</a></p>
-<hr>
-<p><img src="https://414.icu/img/orz.png"> </p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Lanota_2.19.1.apk">2.19.1<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/voez.png"> </p>
+<h3><span id="兰空voez">兰空VOEZ</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/VOEZ_2.2.1.xapk">2.2.1<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/orz.png"> </p>
 <h3><span id="orzmic">Orzmic</span></h3><details>
-<summary>最新版本（2.11.12）</summary>
+<summary>最新版本（2.12.12）</summary>
 
-<p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/orzmic_2.11.12.apk">主要节点</a></p>
-<p><a target="_blank" rel="noopener" href="https://dl.izoyoi.art/orzmic_2.11.12.apk">备用节点</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.taptap.cn/app/194778">Taptap</a></p>
+<p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/Orzmic_2.12.12.apk">主要节点<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="https://www.taptap.cn/app/194778">Taptap<i class="fa-solid fa-up-right-from-square"></i></a></p>
 </details>
 
 <details>
 <summary>其他版本</summary>
 
 <p>Orzmic并不删除愚人节谱面，因此没必要收录愚人节版本</p>
-<p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/orzmic_1.8.22.apk">1.8.22 旧界面最后一个版本</a></p>
+<p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/orzmic_1.8.22.apk">1.8.22 旧界面最后一个版本<i class="fa-solid fa-up-right-from-square"></i></a></p>
 </details>
 
-<hr>
-<p><img src="https://414.icu/img/or.png"> </p>
-<h3><span id="overrapid">OverRapid</span></h3><p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/OverRapid_1591v34MK32.apk">1591v34MK32</a></p>
-<hr>
-<p><img src="https://414.icu/img/phigros.png"> </p>
-<h3><span id="phigros">Phigros</span></h3><p>最新版本请前往<a target="_blank" rel="noopener" href="https://www.taptap.cn/app/165287">taptap</a></p>
+
+
+<p> <img src="https://414.icu/images/or.png"> </p>
+<h3><span id="overrapid">OverRapid</span></h3><p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/OverRapid_1591v34MK32.apk">1591v34MK32<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/para.png"> </p>
+<h3><span id="paradigmreboot-范式起源">Paradigm:reboot 范式起源</span></h3><p>apks文件，需要使用<a class="link" target="_blank" rel="noopener" href="https://414.icu/SAI.apk">SAI<i class="fa-solid fa-up-right-from-square"></i></a>安装</p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/ParadigmReboot_1.0.1.apks">1.0.1<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/muse.png"> </p>
+<h3><span id="projectmuse-穆斯计划">Project.Muse 穆斯计划</span></h3><p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/projectmuse_6.9.3.apk">6.9.3<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/phigros.png"> </p>
+<h3><span id="phigros">Phigros</span></h3><p>最新版本请前往<a class="link" target="_blank" rel="noopener" href="https://www.taptap.cn/app/165287">taptap<i class="fa-solid fa-up-right-from-square"></i></a></p>
 <details>
 <summary>其他版本</summary>
 
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Phigros_2.1.4.apk">2022愚人节（2.1.4）</a></p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Phigros_1.6.5.apk">2021愚人节（1.6.5）</a></p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Phigros_1.4.1.apk">2020愚人节（1.4.1）</a></p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Phigros_1.2.4.apk">2019圣诞节（1.2.4）</a></p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Phigros_1.6.11.apk">1.x最后版本（1.6.11）</a></p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Phigros_1.4.3.apk">1.4.3</a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Phigros_2.1.4.apk">2022愚人节（2.1.4）<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Phigros_1.6.5.apk">2021愚人节（1.6.5）<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Phigros_1.4.1.apk">2020愚人节（1.4.1）<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Phigros_1.2.4.apk">2019圣诞节（1.2.4）<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Phigros_1.6.11.apk">1.x最后版本（1.6.11）<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Phigros_1.4.3.apk">1.4.3<i class="fa-solid fa-up-right-from-square"></i></a></p>
 </details>
 
-<hr>
-<p><img src="https://414.icu/img/ravon.png"> </p>
-<h3><span id="ravon">RAVON</span></h3><p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/RAVON_2.3.0.xapk">2.3.0</a></p>
-<hr>
-<p><img src="https://414.icu/img/takumi.png"> </p>
-<h3><span id="takumi3">Takumi³</span></h3><p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/TAKUMI_4.8.25.apk">4.8.25</a></p>
-<hr>
-<p><img src="https://414.icu/img/twir.png"> </p>
-<h3><span id="twirdora">Twirdora</span></h3><p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/Twirdora_1.0.12.apk">1.0.12</a></p>
-<hr>
-<p><img src="https://414.icu/img/lyrica.png"> </p>
-<h3><span id="阳春白雪lyrica">阳春白雪Lyrica</span></h3><p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/Lyrica_4.6.3.apk">4.6.3</a></p>
-<hr>
-<h1><span id="社区驱动">社区驱动</span></h1><p><img src="https://414.icu/img/cytoid.png"> </p>
+
+
+<p> <img src="https://414.icu/images/rizline.png"> </p>
+<h3><span id="rizline">Rizline</span></h3><p><strong>非对应地区玩家请禁用SIM卡后游玩，否则无法进入游戏</strong></p>
+<p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/rizline_tw_1.0.2.apk">港澳台1.0.2<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/takumi.png"> </p>
+<h3><span id="takumi3">Takumi³</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/takumi_4.8.27.apk">4.8.27<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/twir.png"> </p>
+<h3><span id="twirdora">Twirdora</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/Twirdora_1.0.12.apk">1.0.12<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/lyrica.png"> </p>
+<h3><span id="阳春白雪lyrica">阳春白雪Lyrica</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/Lyrica_4.6.3.apk">4.6.3<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<h2><span id="社区驱动">社区驱动</span></h2><p> <img src="https://414.icu/images/cytoid.png"> </p>
 <h3><span id="cytoid">Cytoid</span></h3><p>Taptap版本和Play版本可以不修改直接共存，但不建议</p>
 <details>
 <summary>Cytoid2.1.1在安卓11以上的谱面目录</summary>
@@ -303,95 +384,218 @@
 <p><code>/sdcard/Android/data/me.tigerhix.cytoid/files/Cytoid</code></p>
 </details>
 
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Cytoid_2.1.1.apk">Play 2.1.1</a></p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Cytoid_2.0.0.apk">Taptap 2.0.0 Beta4</a></p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Cytoid_1.5.5.apk">Taptap 1.5.5</a></p>
-<hr>
-<p><img src="https://414.icu/img/ma.ico"> </p>
-<h3><span id="malody">Malody</span></h3><p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Malody_4.3.7.apk">4.3.7</a></p>
-<hr>
-<p><img src="https://414.icu/img/sonolus.png"> </p>
-<h3><span id="sonolus">Sonolus</span></h3><p><a target="_blank" rel="noopener" href="https://sonolus.com/">官网</a></p>
-<p><a href="httpss://dl.izoyoi.icu/Sonolus_0.6.3_1.apk">0.6.3 (1) Beta</a></p>
-<hr>
-<h1><span id="卡牌养成">卡牌/养成</span></h1><p><img src="https://414.icu/img/bang.png"> </p>
-<h3><span id="梦想协奏曲少女乐团派对">梦想协奏曲！少女乐团派对！</span></h3><p>由于包体版本过多，建议前往<a target="_blank" rel="noopener" href="https://bangdream.fun/">bangdream.fun</a>按需求下载</p>
-<p>目前本站仅提供日服64位安装包</p>
-<p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/bang-650-164.apk">6.5.0.164</a></p>
-<hr>
-<p><img src="https://414.icu/img/d4dj.png"> </p>
-<h3><span id="d4dj-groove-mix">D4DJ Groove MIX</span></h3><p>目前仅提供日服</p>
-<p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/d4dj_jp_4.5.6.apk">4.5.6</a></p>
-<hr>
-<p><img src="https://414.icu/img/pjsk.png"> </p>
-<h3><span id="世界计画-缤纷舞台-feat初音未来">世界计画 缤纷舞台！ feat.初音未来</span></h3><p>目前仅提供日服</p>
-<p><a target="_blank" rel="noopener" href="https://dl.izoyoi.icu/pjsk_jp_2.3.5.apk">2.3.5</a></p>
-<hr>
-<p><img src="https://414.icu/img/lovelive.png"> </p>
-<h3><span id="love-live-学园偶像祭">Love Live! 学园偶像祭</span></h3><p>目前仅提供日服</p>
-<p>可能会检测ROOT</p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/lovelive_jp_9.9.2.apk">9.9.2</a></p>
-<hr>
-<h1><span id="桌面端">桌面端</span></h1><p><img src="https://414.icu/img/osu.ico"> </p>
-<h3><span id="osu">OSU!</span></h3><p>OSU!有两个版本，一个是仅适用于Windows的经典版本，另一个是变动频繁的Lazer版本。目前只提供官网经典版本安装器的下载</p>
-<p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/osu!install.exe">osu!installer</a></p>
-<hr>
-<p><img src="https://414.icu/img/ma.ico"> </p>
-<h3><span id="malody">Malody</span></h3><p><a target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Malody_Windows_4.3.7.7z">4.3.7</a></p>
-<hr>
-<h1><span id="不喘气的雾">不喘气的（雾）</span></h1><p><img src="https://414.icu/img/mar.png"></p>
-<p><a target="_blank" rel="noopener" href="https://www.123pan.com/s/0Sv8Vv-4oqXH">123盘</a></p>
-</center>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Cytoid_2.1.1.apk">Play 2.1.1<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Cytoid_2.0.0.apk">Taptap 2.0.0 Beta4<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Cytoid_1.5.5.apk">Taptap 1.5.5<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/laye.png"> </p>
+<h3><span id="layesta">Layesta</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/Layesta_1.5.1.apk">1.5.1<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/ma.ico"> </p>
+<h3><span id="malody">Malody</span></h3><p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Malody_4.3.7.apk">4.3.7<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/Malody_Windows_4.3.7.7z">Windows 4.3.7<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/sonolus.png"> </p>
+<h3><span id="sonolus">Sonolus</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://sonolus.com/">官网<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" href="httpss://dl.izoyoi.icu/Sonolus_0.6.4_1.apk">0.6.4 (1) Beta<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<h2><span id="卡牌x2f养成">卡牌&#x2F;养成</span></h2><p> <img src="https://414.icu/images/bang.png"> </p>
+<h3><span id="梦想协奏曲少女乐团派对">梦想协奏曲！少女乐团派对！</span></h3><p>由于包体版本过多，建议前往<a class="link" target="_blank" rel="noopener" href="https://bangdream.fun/">bangdream.fun<i class="fa-solid fa-up-right-from-square"></i></a>按需求下载</p>
+<p>目前本站仅提供部分区服armv8a（64位）安装包</p>
+<p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/bang-650-164.apk">日服6.5.0.164<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/bang_en_5.10.0.apk">国际服5.10.0<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/bang_tw_6.1.3.apk">港澳台6.1.3<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/d4dj.png"> </p>
+<h3><span id="d4dj-groove-mix">D4DJ Groove MIX</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/d4dj_en_4.5.25.apk">国际服4.5.25<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/d4dj_jp_4.5.7.apk">日服4.5.7<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/d4dj_tw_4.0.9.apk">港澳台4.0.9<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/pjsk.png"> </p>
+<h3><span id="世界计画-缤纷舞台-feat初音未来">世界计画 缤纷舞台！ feat.初音未来</span></h3><p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/pjsk_en_1.3.2.apk">国际服1.3.2<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/pjsk_jp_2.3.5.apk">日服2.3.5<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="https://dl.izoyoi.icu/pjsk_asia_1.13.3.apk">亚服繁中 1.13.3<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/lovelive.png"> </p>
+<h3><span id="love-live-学园偶像祭">Love Live! 学园偶像祭</span></h3><p>可能会检测ROOT</p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/lovelive_jp_9.9.3.apk">日服9.9.3<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/lovelive_en_9.9.3.apk">国际服9.9.3<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p> <img src="https://414.icu/images/es.png"> </p>
+<h3><span id="偶像梦幻祭-あんスタ">偶像梦幻祭 あんスタ！！</span></h3><p>目前仅提供日服</p>
+<p><a class="link" target="_blank" rel="noopener" href="http://dl.izoyoi.icu/es2_jp_1.0.92.apk">1.0.92<i class="fa-solid fa-up-right-from-square"></i></a></p>
+<h2><span id="停更游戏超过一年无活跃">停更游戏（超过一年无活跃）</span></h2><p> <img src="https://414.icu/images/mar.png"></p>
+<details>
+<summary>展开停更游戏版本列表</summary>
 
+<p>SEVEN’S CODE 1.12.4</p>
+<p>Protocol_hyperspace Diver 2.0.2</p>
+<p>Groove Coaster 2 1.0.17</p>
+<p>Cytus 10.1.4</p>
+<p>Tone Sphere 1.9.3</p>
+<p>SETTLIGHTS 2.1.8</p>
+<p>Polytone 1.11</p>
+<p>Liminality 1.8.0</p>
+<p>Deemo 5.0.4</p>
+</details>
 
-      </div>
-      <div class="post-content-inner-space">
-        
-      </div>
-   </div>
-    <!-- 评论 -->
-    
-  </div>
-</article>
-  </div>
+<p><a class="link" target="_blank" rel="noopener" href="https://www.123pan.com/s/0Sv8Vv-4oqXH">123盘<i class="fa-solid fa-up-right-from-square"></i></a></p>
+
+            
+        </div>
+        <div class="page-template-comments">
+            
+        </div>
+    </div>
 </div>
 
 
+                
 
-<!-- 如果是home模式的话，不在首页就显示footer，如果不是home模式的话 所有都显示footer -->
+            </div>
 
-  <div class="footer-outer animate__animated  animate__fadeInUp">
-    <div class="footer-inner">
-    <div class="footer-text">
-    <p><font size=3> Copyright © 2022 izoyoi team <br/> Powered by <a target="_blank" rel="noopener" href="http://hexo.io/">Hexo</a> <font></p>
 
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        
+        <div class="theme-info info-item">
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine</a> &nbsp;|&nbsp; <a>Copyright © izoyoi network<a/>
+        </div>
+        
+        
+        <script async data-pjax defer>
+            function odometer_init(){
+                    let el = document.getElementsByClassName('odometer');
+                    for (i = 0; i < el.length; i++) {
+                        od = new Odometer({
+                            el: el[i],
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    }
+            }
+            odometer_init();
+        </script>
+        <div id="start_time_div" style="display:none">
+            2022/12/19 19:13:14
+        </div>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
     </div>
-    <div class="footer-contact">
-    <ul class="footer-ul">
-        
-        <li class="footer-li">
-            <a href="https://github.com/samuioto/izoyoi" target="_blank">
-                <i class="ri-github-line"></i>
-            </a>
+
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
         </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fa-solid fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fa-solid fa-left-right"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fa-solid fa-moon"></i>
+        </li>
+
+        <!-- rss -->
         
-        <li class="footer-li">
-            <a href="https://jq.qq.com/?_wv=1027&amp;k=drFazFIc" target="_blank">
-                <i class="ri-qq-line"></i>
-            </a>
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fa-solid fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fa-solid fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fa-solid fa-cog fa-spin"></i>
         </li>
         
     </ul>
+</div>
+
     </div>
-    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
 </div>
 
 
+    
+
+</main>
 
 
 
 
-<script src="/js/white.js"></script>
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+
+
+
+
+
+<div class="post-scripts pjax">
+    
+</div>
+
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            REDEFINE.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            REDEFINE.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            REDEFINE.refresh();
+        });
+    });
+</script>
 
 
 
