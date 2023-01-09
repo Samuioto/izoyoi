@@ -55,7 +55,6 @@ menu:
   主页: /
   下载: /download
   关于和声明: /about
-  更新日志: /log
  
 
 
@@ -69,7 +68,7 @@ search:
 # 自我介绍
 intro:
   title:  '欢迎'
-  sub: '[开始](download)你的下载' # markdown语法
+  sub: '2023,新年快乐！' # markdown语法
   avator: https://cdn.jsdelivr.net/gh/fushaolei/img/20200524104925.jpg #头像 暂时还没用到
   author: izoyoi #所有文章的默认作者
 
@@ -79,9 +78,6 @@ contact:
   Github:
     - https://github.com/samuioto/izoyoi
     - ri-github-line
-  qq:
-    - https://jq.qq.com/?_wv=1027&k=drFazFIc
-    - ri-qq-line
 
 ########## 关于文章的设置 ##########
 
@@ -133,8 +129,8 @@ pagination:
 ############## 其他 ##############
 
 # 页脚
-footer: '<font size=3> Copyright © 2022 izoyoi team <br/> Powered by [Hexo](http://hexo.io/) <font>' # markdown语法
-
+footer: '<font size=3> Copyright © 2022 izoyoi network <br/> Powered by [Hexo](http://hexo.io/) <font>' # markdown语法
+ 
 #有分类时是否开启menu分类页和自定义名字
 menu_categories:
   open: false
